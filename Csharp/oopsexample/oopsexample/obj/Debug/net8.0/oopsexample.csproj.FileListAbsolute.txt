@@ -1,0 +1,9 @@
+E:\revv\Csharp\oopsexample\oopsexample\bin\Debug\net8.0\oopsexample.exe
+E:\revv\Csharp\oopsexample\oopsexample\obj\Debug\net8.0\oopsexample.GeneratedMSBuildEditorConfig.editorconfig
+E:\revv\Csharp\oopsexample\oopsexample\obj\Debug\net8.0\oopsexample.AssemblyInfoInputs.cache
+E:\revv\Csharp\oopsexample\oopsexample\obj\Debug\net8.0\oopsexample.AssemblyInfo.cs
+E:\revv\Csharp\oopsexample\oopsexample\obj\Debug\net8.0\oopsexample.csproj.CoreCompileInputs.cache
+E:\revv\Csharp\oopsexample\oopsexample\obj\Debug\net8.0\oopsexample.sourcelink.json
+E:\revv\Csharp\oopsexample\oopsexample\obj\Debug\net8.0\oopsexample.dll
+E:\revv\Csharp\oopsexample\oopsexample\obj\Debug\net8.0\refint\oopsexample.dll
+E:\revv\Csharp\oopsexample\oopsexample\obj\Debug\net8.0\oopsexample.pdb

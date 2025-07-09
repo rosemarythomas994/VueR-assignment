@@ -1,30 +1,9 @@
-<template>
-  <section class="features-section mb-4">
-    <div class="container">
-      <h2 class="text-center">
-        Maximize net returns at auction using REVV’s comprehensive solution
-      </h2>
-      <div class="row g-4 mt-4">
-        <div class="col-lg-4" v-for="(card, index) in purpleCards" :key="index">
-          <div class="card purple-card p-4 h-100 text-start">
-            <div class="icon text-purple mb-3">
-            <font-awesome-icon :icon="card.icon" class="icon mb-3" />
-            </div>
-            <h3>{{ card.title }}</h3>
-            <p>{{ card.description }}</p>
-            <img :src="card.image" :alt="card.title" class="img-fluid rounded" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</template>
 
 <script setup lang="ts">
 import api from '../images/api.png';
 import tech from '../images/tech.png';
 import early from '../images/early.png';
-import Cards from './Cards.vue';
+
 
 const purpleCards = [
   {
@@ -47,6 +26,29 @@ const purpleCards = [
   }
 ];
 </script>
+
+
+<template>
+  <section class="features-section mb-4">
+    <div class="container">
+      <h2 class="text-center">
+        Maximize net returns at auction using REVV’s comprehensive solution
+      </h2>
+      <div class="row g-4 mt-4">
+        <div class="col-lg-4" v-for="(card, index) in purpleCards" :key="index">
+          <div class="card purple-card p-4 h-100 text-start">
+            <div class="icon text-purple mb-3">
+            <font-awesome-icon :icon="card.icon" class="icon mb-3" />
+            </div>
+            <h3>{{ card.title }}</h3>
+            <p>{{ card.description }}</p>
+            <img :src="card.image" :alt="card.title" class="img-fluid rounded" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
 
 <style scoped>
 .purple-card {

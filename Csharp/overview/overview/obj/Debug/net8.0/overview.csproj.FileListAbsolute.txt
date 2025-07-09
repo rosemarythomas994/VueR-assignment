@@ -1,0 +1,15 @@
+E:\revv\Csharp\overview\overview\bin\Debug\net8.0\overview.exe
+E:\revv\Csharp\overview\overview\bin\Debug\net8.0\overview.deps.json
+E:\revv\Csharp\overview\overview\bin\Debug\net8.0\overview.runtimeconfig.json
+E:\revv\Csharp\overview\overview\bin\Debug\net8.0\overview.dll
+E:\revv\Csharp\overview\overview\bin\Debug\net8.0\overview.pdb
+E:\revv\Csharp\overview\overview\obj\Debug\net8.0\overview.GeneratedMSBuildEditorConfig.editorconfig
+E:\revv\Csharp\overview\overview\obj\Debug\net8.0\overview.AssemblyInfoInputs.cache
+E:\revv\Csharp\overview\overview\obj\Debug\net8.0\overview.AssemblyInfo.cs
+E:\revv\Csharp\overview\overview\obj\Debug\net8.0\overview.csproj.CoreCompileInputs.cache
+E:\revv\Csharp\overview\overview\obj\Debug\net8.0\overview.sourcelink.json
+E:\revv\Csharp\overview\overview\obj\Debug\net8.0\overview.dll
+E:\revv\Csharp\overview\overview\obj\Debug\net8.0\refint\overview.dll
+E:\revv\Csharp\overview\overview\obj\Debug\net8.0\overview.pdb
+E:\revv\Csharp\overview\overview\obj\Debug\net8.0\overview.genruntimeconfig.cache
+E:\revv\Csharp\overview\overview\obj\Debug\net8.0\ref\overview.dll

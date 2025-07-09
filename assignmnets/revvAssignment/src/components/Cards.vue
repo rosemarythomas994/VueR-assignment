@@ -1,3 +1,23 @@
+
+<script setup lang="ts">
+const greenCards = [
+  {
+    icon: ['fas', 'network-wired'],
+    title: 'AI-Driven',
+    description: 'We streamline and simplify your processes with cutting-edge AI.'
+  },
+  {
+    icon: ['fas', 'file-lines'],
+    title: 'Data-Driven',
+    description: 'We ensure transparent and informed decision-making using data.'
+  },
+  {
+    icon: ['fas', 'user'],
+    title: 'Customer Focused',
+    description: 'Guiding your remarketing needs with powerful insights.'
+  }
+];
+</script>
 <template>
   <section class="features-section mb-4">
     <div class="container">
@@ -19,25 +39,6 @@
   </section>
 </template>
 
-<script setup lang="ts">
-const greenCards = [
-  {
-    icon: ['fas', 'network-wired'],
-    title: 'AI-Driven',
-    description: 'We streamline and simplify your processes with cutting-edge AI.'
-  },
-  {
-    icon: ['fas', 'file-lines'],
-    title: 'Data-Driven',
-    description: 'We ensure transparent and informed decision-making using data.'
-  },
-  {
-    icon: ['fas', 'user'],
-    title: 'Customer Focused',
-    description: 'Guiding your remarketing needs with powerful insights.'
-  }
-];
-</script>
 
 <style scoped>
 .green-card {

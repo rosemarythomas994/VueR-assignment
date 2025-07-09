@@ -1,15 +1,16 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
 import logo from '../images/revv.png';
+
 </script>
 <template>
-  <footer class="text-white py-4 gp-2" style="background-color: #000066">
-    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-start">
-      <div class="text-center text-md-start mb-3 mb-md-0">
+  <footer class="text-white py-4 mb-2" style="background-color: #000066">
+    <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-start">
+      <div class="text-center text-lg-start mb-3 mb-md-0">
         <RouterLink to="/">
           <img :src="logo" alt="REVV Logo" height="40" class="mb-3" />
         </RouterLink>
-        <div class="d-flex justify-content-center justify-content-md-start gap-2 mb-2">
+        <div class="d-flex justify-content-center justify-content-md-start  mb-2">
           <a href="https://play.google.com/store/apps/details?id=com.revv.vin" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40" />
           </a>

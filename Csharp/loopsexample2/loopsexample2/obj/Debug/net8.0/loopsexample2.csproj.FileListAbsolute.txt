@@ -1,0 +1,15 @@
+E:\revv\Csharp\loopsexample2\loopsexample2\bin\Debug\net8.0\loopsexample2.exe
+E:\revv\Csharp\loopsexample2\loopsexample2\bin\Debug\net8.0\loopsexample2.deps.json
+E:\revv\Csharp\loopsexample2\loopsexample2\bin\Debug\net8.0\loopsexample2.runtimeconfig.json
+E:\revv\Csharp\loopsexample2\loopsexample2\bin\Debug\net8.0\loopsexample2.dll
+E:\revv\Csharp\loopsexample2\loopsexample2\bin\Debug\net8.0\loopsexample2.pdb
+E:\revv\Csharp\loopsexample2\loopsexample2\obj\Debug\net8.0\loopsexample2.GeneratedMSBuildEditorConfig.editorconfig
+E:\revv\Csharp\loopsexample2\loopsexample2\obj\Debug\net8.0\loopsexample2.AssemblyInfoInputs.cache
+E:\revv\Csharp\loopsexample2\loopsexample2\obj\Debug\net8.0\loopsexample2.AssemblyInfo.cs
+E:\revv\Csharp\loopsexample2\loopsexample2\obj\Debug\net8.0\loopsexample2.csproj.CoreCompileInputs.cache
+E:\revv\Csharp\loopsexample2\loopsexample2\obj\Debug\net8.0\loopsexample2.sourcelink.json
+E:\revv\Csharp\loopsexample2\loopsexample2\obj\Debug\net8.0\loopsexample2.dll
+E:\revv\Csharp\loopsexample2\loopsexample2\obj\Debug\net8.0\refint\loopsexample2.dll
+E:\revv\Csharp\loopsexample2\loopsexample2\obj\Debug\net8.0\loopsexample2.pdb
+E:\revv\Csharp\loopsexample2\loopsexample2\obj\Debug\net8.0\loopsexample2.genruntimeconfig.cache
+E:\revv\Csharp\loopsexample2\loopsexample2\obj\Debug\net8.0\ref\loopsexample2.dll

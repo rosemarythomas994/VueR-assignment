@@ -1,0 +1,15 @@
+E:\revv\Csharp\fileandexception\fileandexception\bin\Debug\net8.0\fileandexception.exe
+E:\revv\Csharp\fileandexception\fileandexception\bin\Debug\net8.0\fileandexception.deps.json
+E:\revv\Csharp\fileandexception\fileandexception\bin\Debug\net8.0\fileandexception.runtimeconfig.json
+E:\revv\Csharp\fileandexception\fileandexception\bin\Debug\net8.0\fileandexception.dll
+E:\revv\Csharp\fileandexception\fileandexception\bin\Debug\net8.0\fileandexception.pdb
+E:\revv\Csharp\fileandexception\fileandexception\obj\Debug\net8.0\fileandexception.GeneratedMSBuildEditorConfig.editorconfig
+E:\revv\Csharp\fileandexception\fileandexception\obj\Debug\net8.0\fileandexception.AssemblyInfoInputs.cache
+E:\revv\Csharp\fileandexception\fileandexception\obj\Debug\net8.0\fileandexception.AssemblyInfo.cs
+E:\revv\Csharp\fileandexception\fileandexception\obj\Debug\net8.0\fileandexception.csproj.CoreCompileInputs.cache
+E:\revv\Csharp\fileandexception\fileandexception\obj\Debug\net8.0\fileandexception.sourcelink.json
+E:\revv\Csharp\fileandexception\fileandexception\obj\Debug\net8.0\fileandexception.dll
+E:\revv\Csharp\fileandexception\fileandexception\obj\Debug\net8.0\refint\fileandexception.dll
+E:\revv\Csharp\fileandexception\fileandexception\obj\Debug\net8.0\fileandexception.pdb
+E:\revv\Csharp\fileandexception\fileandexception\obj\Debug\net8.0\fileandexception.genruntimeconfig.cache
+E:\revv\Csharp\fileandexception\fileandexception\obj\Debug\net8.0\ref\fileandexception.dll

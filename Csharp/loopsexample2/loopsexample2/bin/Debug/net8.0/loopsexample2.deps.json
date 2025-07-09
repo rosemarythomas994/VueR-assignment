@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "loopsexample2/1.0.0": {
+        "runtime": {
+          "loopsexample2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "loopsexample2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

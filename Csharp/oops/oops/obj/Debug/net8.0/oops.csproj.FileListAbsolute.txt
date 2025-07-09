@@ -1,0 +1,15 @@
+E:\revv\Csharp\oops\oops\bin\Debug\net8.0\oops.exe
+E:\revv\Csharp\oops\oops\bin\Debug\net8.0\oops.deps.json
+E:\revv\Csharp\oops\oops\bin\Debug\net8.0\oops.runtimeconfig.json
+E:\revv\Csharp\oops\oops\bin\Debug\net8.0\oops.dll
+E:\revv\Csharp\oops\oops\bin\Debug\net8.0\oops.pdb
+E:\revv\Csharp\oops\oops\obj\Debug\net8.0\oops.GeneratedMSBuildEditorConfig.editorconfig
+E:\revv\Csharp\oops\oops\obj\Debug\net8.0\oops.AssemblyInfoInputs.cache
+E:\revv\Csharp\oops\oops\obj\Debug\net8.0\oops.AssemblyInfo.cs
+E:\revv\Csharp\oops\oops\obj\Debug\net8.0\oops.csproj.CoreCompileInputs.cache
+E:\revv\Csharp\oops\oops\obj\Debug\net8.0\oops.sourcelink.json
+E:\revv\Csharp\oops\oops\obj\Debug\net8.0\oops.dll
+E:\revv\Csharp\oops\oops\obj\Debug\net8.0\refint\oops.dll
+E:\revv\Csharp\oops\oops\obj\Debug\net8.0\oops.pdb
+E:\revv\Csharp\oops\oops\obj\Debug\net8.0\oops.genruntimeconfig.cache
+E:\revv\Csharp\oops\oops\obj\Debug\net8.0\ref\oops.dll

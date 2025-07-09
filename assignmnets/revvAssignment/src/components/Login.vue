@@ -1,114 +1,111 @@
 
 <script setup lang="ts">
-import { ref } from 'vue';
 import { useRouter } from 'vue-router';
+import { ref } from 'vue';
+import { useForm, useField } from 'vee-validate';
+import { required, email as emailRule } from '@vee-validate/rules';
 import Header from './Header.vue';
 import Footer from './Footer.vue';
 
 const router = useRouter();
 
-const email = ref('');
-const password = ref('');
-const remember = ref(false);
-const emailError = ref('');
-const passwordError = ref('');
-
-// Sample user data (frontend only)
-interface User {
-name: string;
-  email: string;
-  password: string;
-}
-
-const users: User[] = [
+const users = [
   { name: 'Rose Mary', email: 'rose@gmail.com', password: 'Rose@1234' },
-  { name: 'Admin John', email: 'admin@example.com', password: 'Admin@123' },
+  { name: 'Joseph Thomas', email: 'admin@example.com', password: 'Admin@123' }
 ];
 
-const validatePassword = (password: string): string => {
-  const minLength = 8;
-  const letterRegex = /([A-Za-z].*){4}/;
-  const digitRegex = /[0-9]/;
-  const specialCharRegex = /[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]/;
-  const errors = [];
+// Setup vee-validate form
+const { handleSubmit, errors } = useForm();
+const { value: emailValue } = useField('email', [required, emailRule]);
+const { value: rememberValue } = useField('remember');
+const passwordValue = ref('');
+const passwordErrors = ref<string[]>([]);
 
-  if (password.length < minLength) errors.push("at least 8 characters");
-  if (!letterRegex.test(password)) errors.push("at least 4 letters");
-  if (!digitRegex.test(password)) errors.push("at least one digit");
-  if (!specialCharRegex.test(password)) errors.push("at least one special character");
-
-  return errors.length ? `Password must contain ${errors.join(', ')}.` : '';
+// Password validation function
+const validatePasswordRules = (value: string): string[] => {
+  const errs: string[] = [];
+  if (!value) errs.push('Password is required.');
+  if (value.length < 8) errs.push('At least 8 characters');
+  if (!/([A-Za-z].*){4}/.test(value)) errs.push('At least 4 letters');
+  if (!/\d/.test(value)) errs.push('At least one number');
+  if (!/[!@#$%^&*]/.test(value)) errs.push('At least one special character');
+  return errs;
 };
 
-const handleSubmit = () => {
-  emailError.value = '';
-  passwordError.value = '';
+// Validate password manually on blur and submit
+const validatePasswordManually = () => {
+  passwordErrors.value = validatePasswordRules(passwordValue.value);
+};
 
-  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  let valid = true;
+// Submit handler
+const onSubmit = handleSubmit((values) => {
+  validatePasswordManually();
 
-  if (!emailPattern.test(email.value.trim())) {
-    emailError.value = 'Please enter a valid email address.';
-    valid = false;
-  }
+  // If password has errors, do not submit
+  if (passwordErrors.value.length > 0) return;
 
-  const pwdError = validatePassword(password.value);
-  if (pwdError) {
-    passwordError.value = pwdError;
-    valid = false;
-  }
-
-  if (!valid) return;
-
-  // Check against user array
   const matchedUser = users.find(
-    user => user.email === email.value && user.password === password.value
+    user => user.email === values.email && user.password === passwordValue.value
   );
 
   if (matchedUser) {
-  router.push({ path: '/welcome', query: { email: email.value, name: matchedUser.name } });
-} else {
-  passwordError.value = 'Invalid email or password.';
-}
-};
+    localStorage.setItem('loggedInUser', JSON.stringify(matchedUser));// locally stored the name 
+    router.push({ path: '/welcome', query: { email: values.email, name: matchedUser.name } });
+  } else {
+    alert('Invalid email or password');
+  }
+});
 </script>
-
 <template>
   <div class="login-page">
     <Header />
 
-    <!-- Login Form -->
     <div class="login-container">
       <div class="login-box shadow">
         <h2 class="text-center text-primary mb-4 border-bottom pb-2">Log in</h2>
-        <form @submit.prevent="handleSubmit">
+
+        <form @submit.prevent="onSubmit">
+          <!-- Email Field -->
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
-            <div class="error-msg" v-if="emailError">{{ emailError }}</div>
-            <input v-model="email" type="text" class="form-control" id="email" />
+            <input v-model="emailValue" type="text" class="form-control" placeholder="Email" />
+            <span class="error-msg">{{ errors.email }}</span>
           </div>
 
+          <!-- Password Field -->
           <div class="mb-3">
             <label for="password" class="form-label">Password</label>
-            <div class="error-msg" v-if="passwordError">{{ passwordError }}</div>
-            <input v-model="password" type="password" class="form-control" id="password" />
+            <input
+              v-model="passwordValue"
+              type="password"
+              class="form-control"
+              placeholder="Password"
+              @blur="validatePasswordManually"
+            />
+            
+            <div class="error-msg" v-if="passwordErrors.length > 0">
+              <div v-for="(msg, i) in passwordErrors" :key="i">{{ msg }}</div>
+            </div>
           </div>
 
+          <!-- Remember Me -->
           <div class="form-check mb-3">
-            <input v-model="remember" type="checkbox" class="form-check-input" id="remember" />
+            <input v-model="rememberValue" type="checkbox" class="form-check-input" id="remember" />
             <label class="form-check-label" for="remember">Remember Me</label>
           </div>
 
+          <!-- Submit Button -->
           <button type="submit" class="btn btn-login w-100">Log in</button>
-
-          <div class="mt-3 text-center">
-            <a href="#" class="text-decoration-none text-primary">Forgot Password?</a>
-          </div>
-          <div class="text-center mt-2">
-            Don’t have an account?
-            <a href="#" class="text-success fw-semibold text-decoration-none">Register</a>
-          </div>
         </form>
+
+        <!-- Links -->
+        <div class="mt-3 text-center">
+          <a href="#" class="text-decoration-none text-primary">Forgot Password?</a>
+        </div>
+        <div class="text-center mt-2">
+          Don’t have an account?
+          <a href="#" class="text-success fw-semibold text-decoration-none">Register</a>
+        </div>
       </div>
     </div>
 
@@ -147,6 +144,7 @@ const handleSubmit = () => {
   color: red;
   font-size: 0.875rem;
   margin-top: 5px;
+  line-height: 1.4;
 }
 
 .btn-login {
@@ -156,9 +154,5 @@ const handleSubmit = () => {
 
 .btn-login:hover {
   background-color: #002080;
-}
-
-.navbar-brand img {
-  max-height: 48px;
 }
 </style>

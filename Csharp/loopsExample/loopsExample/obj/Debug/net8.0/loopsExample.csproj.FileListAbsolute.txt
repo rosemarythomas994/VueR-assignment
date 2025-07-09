@@ -1,0 +1,15 @@
+E:\revv\Csharp\loopsExample\loopsExample\obj\Debug\net8.0\loopsExample.GeneratedMSBuildEditorConfig.editorconfig
+E:\revv\Csharp\loopsExample\loopsExample\obj\Debug\net8.0\loopsExample.AssemblyInfoInputs.cache
+E:\revv\Csharp\loopsExample\loopsExample\obj\Debug\net8.0\loopsExample.AssemblyInfo.cs
+E:\revv\Csharp\loopsExample\loopsExample\obj\Debug\net8.0\loopsExample.csproj.CoreCompileInputs.cache
+E:\revv\Csharp\loopsExample\loopsExample\obj\Debug\net8.0\loopsExample.sourcelink.json
+E:\revv\Csharp\loopsExample\loopsExample\bin\Debug\net8.0\loopsExample.exe
+E:\revv\Csharp\loopsExample\loopsExample\bin\Debug\net8.0\loopsExample.deps.json
+E:\revv\Csharp\loopsExample\loopsExample\bin\Debug\net8.0\loopsExample.runtimeconfig.json
+E:\revv\Csharp\loopsExample\loopsExample\bin\Debug\net8.0\loopsExample.dll
+E:\revv\Csharp\loopsExample\loopsExample\bin\Debug\net8.0\loopsExample.pdb
+E:\revv\Csharp\loopsExample\loopsExample\obj\Debug\net8.0\loopsExample.dll
+E:\revv\Csharp\loopsExample\loopsExample\obj\Debug\net8.0\refint\loopsExample.dll
+E:\revv\Csharp\loopsExample\loopsExample\obj\Debug\net8.0\loopsExample.pdb
+E:\revv\Csharp\loopsExample\loopsExample\obj\Debug\net8.0\loopsExample.genruntimeconfig.cache
+E:\revv\Csharp\loopsExample\loopsExample\obj\Debug\net8.0\ref\loopsExample.dll

@@ -1,0 +1,15 @@
+E:\revv\Csharp\methodexample\methodexample\bin\Debug\net8.0\methodexample.exe
+E:\revv\Csharp\methodexample\methodexample\bin\Debug\net8.0\methodexample.deps.json
+E:\revv\Csharp\methodexample\methodexample\bin\Debug\net8.0\methodexample.runtimeconfig.json
+E:\revv\Csharp\methodexample\methodexample\bin\Debug\net8.0\methodexample.dll
+E:\revv\Csharp\methodexample\methodexample\bin\Debug\net8.0\methodexample.pdb
+E:\revv\Csharp\methodexample\methodexample\obj\Debug\net8.0\methodexample.GeneratedMSBuildEditorConfig.editorconfig
+E:\revv\Csharp\methodexample\methodexample\obj\Debug\net8.0\methodexample.AssemblyInfoInputs.cache
+E:\revv\Csharp\methodexample\methodexample\obj\Debug\net8.0\methodexample.AssemblyInfo.cs
+E:\revv\Csharp\methodexample\methodexample\obj\Debug\net8.0\methodexample.csproj.CoreCompileInputs.cache
+E:\revv\Csharp\methodexample\methodexample\obj\Debug\net8.0\methodexample.sourcelink.json
+E:\revv\Csharp\methodexample\methodexample\obj\Debug\net8.0\methodexample.dll
+E:\revv\Csharp\methodexample\methodexample\obj\Debug\net8.0\refint\methodexample.dll
+E:\revv\Csharp\methodexample\methodexample\obj\Debug\net8.0\methodexample.pdb
+E:\revv\Csharp\methodexample\methodexample\obj\Debug\net8.0\methodexample.genruntimeconfig.cache
+E:\revv\Csharp\methodexample\methodexample\obj\Debug\net8.0\ref\methodexample.dll

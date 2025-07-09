@@ -1,0 +1,15 @@
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\bin\Debug\net8.0\MethodsExampleWithoutStatic.exe
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\bin\Debug\net8.0\MethodsExampleWithoutStatic.deps.json
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\bin\Debug\net8.0\MethodsExampleWithoutStatic.runtimeconfig.json
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\bin\Debug\net8.0\MethodsExampleWithoutStatic.dll
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\bin\Debug\net8.0\MethodsExampleWithoutStatic.pdb
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\obj\Debug\net8.0\MethodsExampleWithoutStatic.GeneratedMSBuildEditorConfig.editorconfig
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\obj\Debug\net8.0\MethodsExampleWithoutStatic.AssemblyInfoInputs.cache
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\obj\Debug\net8.0\MethodsExampleWithoutStatic.AssemblyInfo.cs
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\obj\Debug\net8.0\MethodsExampleWithoutStatic.csproj.CoreCompileInputs.cache
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\obj\Debug\net8.0\MethodsExampleWithoutStatic.sourcelink.json
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\obj\Debug\net8.0\MethodsExampleWithoutStatic.dll
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\obj\Debug\net8.0\refint\MethodsExampleWithoutStatic.dll
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\obj\Debug\net8.0\MethodsExampleWithoutStatic.pdb
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\obj\Debug\net8.0\MethodsExampleWithoutStatic.genruntimeconfig.cache
+E:\revv\Csharp\MethodsExampleWithoutStatic\MethodsExampleWithoutStatic\obj\Debug\net8.0\ref\MethodsExampleWithoutStatic.dll

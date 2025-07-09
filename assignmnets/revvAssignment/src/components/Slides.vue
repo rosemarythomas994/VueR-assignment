@@ -1,28 +1,3 @@
-<template>
-  <div id="revvCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div
-        v-for="(item, index) in carouselItems"
-        :key="index"
-        :class="['carousel-item', { active: index === 0 }]"
-      >
-        <div class="carousel-slide" :style="{ backgroundImage: `url(${item.image})` }">
-          <div class="carousel-caption">
-            <h1>{{ item.title }}</h1>
-            <p>{{ item.description }}</p>
-            <a :href="item.link" class="yellow-btn">{{ item.button }}</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#revvCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#revvCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
-</template>
 
 <script setup lang="ts">
 import car1 from '../images/car.jpg';
@@ -53,6 +28,33 @@ const carouselItems = [
   }
 ];
 </script>
+
+<template>
+  <div id="revvCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div
+        v-for="(item, index) in carouselItems"
+        :key="index"
+        :class="['carousel-item', { active: index === 0 }]"
+      >
+        <div class="carousel-slide" :style="{ backgroundImage: `url(${item.image})` }">
+          <div class="carousel-caption">
+            <h1>{{ item.title }}</h1>
+            <p>{{ item.description }}</p>
+            <a :href="item.link" class="yellow-btn">{{ item.button }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#revvCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#revvCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</template>
+
 
 <style scoped>
 .carousel-slide {
