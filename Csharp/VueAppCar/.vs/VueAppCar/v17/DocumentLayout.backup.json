@@ -1,0 +1,330 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\revv\\Csharp\\VueAppCar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\vueappcar.client.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\vueappcar.client.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292B53AD-65EC-46FF-B7AC-7B076D4F568F}|VueAppCar.Server\\VueAppCar.Server.csproj|e:\\revv\\csharp\\vueappcar\\vueappcar.server\\vueappcar.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{292B53AD-65EC-46FF-B7AC-7B076D4F568F}|VueAppCar.Server\\VueAppCar.Server.csproj|solutionrelative:vueappcar.server\\vueappcar.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292B53AD-65EC-46FF-B7AC-7B076D4F568F}|VueAppCar.Server\\VueAppCar.Server.csproj|e:\\revv\\csharp\\vueappcar\\vueappcar.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292B53AD-65EC-46FF-B7AC-7B076D4F568F}|VueAppCar.Server\\VueAppCar.Server.csproj|solutionrelative:vueappcar.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292B53AD-65EC-46FF-B7AC-7B076D4F568F}|VueAppCar.Server\\VueAppCar.Server.csproj|e:\\revv\\csharp\\vueappcar\\vueappcar.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{292B53AD-65EC-46FF-B7AC-7B076D4F568F}|VueAppCar.Server\\VueAppCar.Server.csproj|solutionrelative:vueappcar.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\tsconfig.app.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\tsconfig.app.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\src\\shims-vue.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\src\\shims-vue.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\src\\app.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\src\\app.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\src\\router\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\src\\router\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\src\\components\\welcome.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\src\\components\\welcome.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\src\\components\\register.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\src\\components\\register.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\src\\components\\login.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\src\\components\\login.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\src\\components\\caredit.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\src\\components\\caredit.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\src\\components\\cards.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\src\\components\\cards.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\vitest.setup.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\vitest.setup.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|e:\\revv\\csharp\\vueappcar\\vueappcar.client\\src\\assets\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FCF468DE-4B02-AF17-8026-77863E610733}|vueappcar.client\\vueappcar.client.esproj|solutionrelative:vueappcar.client\\src\\assets\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\VueAppCar.Server\\Program.cs",
+              "RelativeDocumentMoniker": "VueAppCar.Server\\Program.cs",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\VueAppCar.Server\\Program.cs",
+              "RelativeToolTip": "VueAppCar.Server\\Program.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAQwGEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T05:28:37.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\VueAppCar.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "VueAppCar.Server\\appsettings.json",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\VueAppCar.Server\\appsettings.json",
+              "RelativeToolTip": "VueAppCar.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T05:28:26.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VueAppCar.Server",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\VueAppCar.Server\\VueAppCar.Server.csproj",
+              "RelativeDocumentMoniker": "VueAppCar.Server\\VueAppCar.Server.csproj",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\VueAppCar.Server\\VueAppCar.Server.csproj",
+              "RelativeToolTip": "VueAppCar.Server\\VueAppCar.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-14T05:28:24.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "shims-vue.d.ts",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\shims-vue.d.ts",
+              "RelativeDocumentMoniker": "vueappcar.client\\src\\shims-vue.d.ts",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\shims-vue.d.ts",
+              "RelativeToolTip": "vueappcar.client\\src\\shims-vue.d.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-14T05:20:25.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vueappcar.client.esproj",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\vueappcar.client.esproj",
+              "RelativeDocumentMoniker": "vueappcar.client\\vueappcar.client.esproj",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\vueappcar.client.esproj",
+              "RelativeToolTip": "vueappcar.client\\vueappcar.client.esproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-14T05:15:39.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "main.ts",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\main.ts",
+              "RelativeDocumentMoniker": "vueappcar.client\\src\\main.ts",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\main.ts",
+              "RelativeToolTip": "vueappcar.client\\src\\main.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-14T05:27:11.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "package.json",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\package.json",
+              "RelativeDocumentMoniker": "vueappcar.client\\package.json",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\package.json",
+              "RelativeToolTip": "vueappcar.client\\package.json",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T05:20:38.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tsconfig.app.json",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\tsconfig.app.json",
+              "RelativeDocumentMoniker": "vueappcar.client\\tsconfig.app.json",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\tsconfig.app.json",
+              "RelativeToolTip": "vueappcar.client\\tsconfig.app.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T05:20:56.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.vue",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\App.vue",
+              "RelativeDocumentMoniker": "vueappcar.client\\src\\App.vue",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\App.vue",
+              "RelativeToolTip": "vueappcar.client\\src\\App.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-07-14T05:26:58.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.ts",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\router\\index.ts",
+              "RelativeDocumentMoniker": "vueappcar.client\\src\\router\\index.ts",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\router\\index.ts",
+              "RelativeToolTip": "vueappcar.client\\src\\router\\index.ts",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-14T05:26:31.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Welcome.vue",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\components\\Welcome.vue",
+              "RelativeDocumentMoniker": "vueappcar.client\\src\\components\\Welcome.vue",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\components\\Welcome.vue",
+              "RelativeToolTip": "vueappcar.client\\src\\components\\Welcome.vue",
+              "ViewState": "AgIAAH8BAAAAAAAAAAAwwJkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-07-14T05:26:16.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.vue",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\components\\Register.vue",
+              "RelativeDocumentMoniker": "vueappcar.client\\src\\components\\Register.vue",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\components\\Register.vue",
+              "RelativeToolTip": "vueappcar.client\\src\\components\\Register.vue",
+              "ViewState": "AgIAAFYAAAAAAAAAAADwv28AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-07-14T05:26:01.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.vue",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\components\\Login.vue",
+              "RelativeDocumentMoniker": "vueappcar.client\\src\\components\\Login.vue",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\components\\Login.vue",
+              "RelativeToolTip": "vueappcar.client\\src\\components\\Login.vue",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAwwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-07-14T05:25:54.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CarEdit.vue",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\components\\CarEdit.vue",
+              "RelativeDocumentMoniker": "vueappcar.client\\src\\components\\CarEdit.vue",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\components\\CarEdit.vue",
+              "RelativeToolTip": "vueappcar.client\\src\\components\\CarEdit.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-07-14T05:25:28.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Cards.vue",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\components\\Cards.vue",
+              "RelativeDocumentMoniker": "vueappcar.client\\src\\components\\Cards.vue",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\components\\Cards.vue",
+              "RelativeToolTip": "vueappcar.client\\src\\components\\Cards.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-07-14T05:25:11.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "vitest.setup.ts",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\vitest.setup.ts",
+              "RelativeDocumentMoniker": "vueappcar.client\\vitest.setup.ts",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\vitest.setup.ts",
+              "RelativeToolTip": "vueappcar.client\\vitest.setup.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-14T05:21:52.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "vite.config.ts",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\vite.config.ts",
+              "RelativeDocumentMoniker": "vueappcar.client\\vite.config.ts",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\vite.config.ts",
+              "RelativeToolTip": "vueappcar.client\\vite.config.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-14T05:21:14.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "main.css",
+              "DocumentMoniker": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\assets\\main.css",
+              "RelativeDocumentMoniker": "vueappcar.client\\src\\assets\\main.css",
+              "ToolTip": "E:\\revv\\Csharp\\VueAppCar\\vueappcar.client\\src\\assets\\main.css",
+              "RelativeToolTip": "vueappcar.client\\src\\assets\\main.css",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-14T05:19:00.65Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

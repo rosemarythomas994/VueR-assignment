@@ -1,0 +1,84 @@
+<script setup lang="ts">
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+import axios from 'axios';
+import Header from './Header.vue';
+import Footer from './Footer.vue';
+
+const router = useRouter();
+const errorMessage = ref('');
+const user = JSON.parse(localStorage.getItem('loggedInUser') || '{}');
+const token = localStorage.getItem('token');
+
+const newCar = ref({
+  image: '',
+  brand: '',
+  model: '',
+  year: new Date().getFullYear(),
+  place: '',
+  number: 0,
+  date: '',
+  userId: user.email || '',
+  createdAt: '',
+  updatedAt: ''
+});
+
+async function saveNewCar() {
+  if (!newCar.value.brand.trim() || !newCar.value.model.trim()) {
+    errorMessage.value = 'Brand and Model are required.';
+    return;
+  }
+
+  try {
+    newCar.value.createdAt = new Date().toISOString();
+    newCar.value.updatedAt = new Date().toISOString();
+
+    await axios.post('http://localhost:5058/api/Car', newCar.value, {
+      headers: { Authorization: `Bearer ${token}` }
+    });
+
+    router.push('/welcome');
+  } catch (err: any) {
+    errorMessage.value = err.response?.data?.message || 'Failed to add car.';
+  }
+}
+</script>
+
+<template>
+  <div>
+    <Header />
+    <div class="container my-5">
+      <h2 class="mb-4">Add New Car</h2>
+      <form @submit.prevent="saveNewCar" class="card p-4 shadow-sm">
+        <div v-if="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+        <div class="mb-3" v-for="(label, key) in {
+          image: 'Image URL',
+          brand: 'Brand',
+          model: 'Model',
+          year: 'Year',
+          place: 'Place',
+          number: 'Registration Number',
+          date: 'Date',
+        }" :key="key">
+          <label class="form-label">{{ label }}</label>
+          <input
+            class="form-control"
+            :type="['year', 'number'].includes(key) ? 'number' : key === 'date' ? 'date' : 'text'"
+            v-model="newCar[key]"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn btn-success">Save</button>
+      </form>
+    </div>
+    <Footer />
+  </div>
+</template>
+
+<style scoped>
+.container {
+  max-width: 600px;
+}
+</style>

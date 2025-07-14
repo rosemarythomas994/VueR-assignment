@@ -1,28 +1,28 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
-import { useRoute } from 'vue-router';
+import { useRouter } from 'vue-router';
 import Header from './Header.vue';
 import Footer from './Footer.vue';
-import carsData from '@/assets/cars.json';
+import axios from 'axios';
 
 interface Car {
-  _id: string;
-  createdAt: string;
-  updatedAt: string;
-  image: string;
+  id: string;
   brand: string;
   model: string;
   year: number;
   place: string;
   number: number;
-  __v: string;
   date: string;
   userId: string;
+  createdAt?: string;
+  updatedAt?: string;
+  image?: string;
 }
 
-const route = useRoute();
-const name = ref('Guest');
 const cars = ref<Car[]>([]);
+const router = useRouter();
+const error = ref('');
+const name = ref('');
 const currentPage = ref(1);
 const pageSize = 6;
 
@@ -59,37 +59,71 @@ function goToPage(page: number | string) {
 }
 
 onMounted(async () => {
+  const token = localStorage.getItem('token');
   const userStr = localStorage.getItem('loggedInUser');
   if (userStr) {
     const user = JSON.parse(userStr);
-    name.value = user.name || 'Guest';
+    const email = user.email || '';
+    name.value = email.includes('@') ? email.split('@')[0] : 'Guest';
   }
-
-  const stored = localStorage.getItem('cars');
-  if (stored) {
-    cars.value = JSON.parse(stored);
-  } else {
-     cars.value = carsData;
-    localStorage.setItem('cars', JSON.stringify(cars.value));
+  try {
+    const response = await axios.get('http://localhost:5058/api/Car', {
+      headers: { Authorization: `Bearer ${token}` }
+    });
+    cars.value = response.data;
+  } catch (err: any) {
+    if (err.response?.status === 401) {
+      alert('Session expired. Please login again.');
+      localStorage.removeItem('token');
+      router.push('/login');
+    } else {
+      error.value = 'Failed to load cars.';
+    }
   }
 });
+
+function editCar(carId: string) {
+  router.push({ name: 'CarEdit', params: { id: carId } });
+}
+
+async function deleteCar(carId: string) {
+  const token = localStorage.getItem('token');
+  if (!confirm('Are you sure to delete this car?')) return;
+
+  try {
+    await axios.delete(`http://localhost:5058/api/Car/${carId}`, {
+      headers: { Authorization: `Bearer ${token}` }
+    });
+    cars.value = cars.value.filter(c => c.id !== carId);
+  } catch (err: any) {
+    alert(err.response?.data?.message || 'Failed to delete car.');
+  }
+}
+
+function goToAddCar() {
+  router.push({ name: 'AddCar' }); // Make sure your route is named "AddCar"
+}
+
 </script>
 
 <template>
   <Header />
-
   <div class="container my-5">
     <div class="welcome-card shadow mb-4">
       <h1 class="greeting">Welcome, {{ name }}</h1>
       <p class="tagline">We're glad to have you back 🎉</p>
     </div>
-
+<div class="text-end mb-4">
+  <button class="btn btn-success" @click="goToAddCar">
+    + Add Car
+  </button>
+</div>
     <div v-if="paginatedCars.length === 0" class="text-center mb-4">
       <p>No cars available.</p>
     </div>
 
     <div class="row g-4 mb-4">
-      <div class="col-md-4" v-for="car in paginatedCars" :key="car._id">
+      <div class="col-md-4" v-for="car in paginatedCars" :key="car.id">
         <div class="card h-100 shadow-sm">
           <img :src="`../images/${car.image}`" class="card-img-top" alt="Car Image" />
           <div class="card-body">
@@ -102,9 +136,8 @@ onMounted(async () => {
               <strong>Date:</strong> {{ car.date }}<br />
               <strong>User ID:</strong> {{ car.userId }}
             </p>
-            <RouterLink class="btn btn-primary mt-2" :to="{ name: 'CarEdit', params: { id: car._id }, query: { name } }">
-              Edit
-            </RouterLink>
+            <button class="btn btn-primary me-2" @click="editCar(car.id)">Edit</button>
+            <button class="btn btn-danger" @click="deleteCar(car.id)">Delete</button>
           </div>
         </div>
       </div>
@@ -124,8 +157,6 @@ onMounted(async () => {
       </ul>
     </nav>
   </div>
-
-
   <Footer />
 </template>
 
@@ -159,6 +190,13 @@ onMounted(async () => {
 }
 .btn-primary:hover {
   background-color: #0056b3;
+}
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.btn-danger:hover {
+  background-color: #bb2d3b;
 }
 .pagination-nav .page-link {
   color: #003399;

@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\revv\\Csharp\\JWTWithBCrypt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|e:\\revv\\csharp\\jwtwithbcrypt\\jwtwithbcrypt\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|solutionrelative:jwtwithbcrypt\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|e:\\revv\\csharp\\jwtwithbcrypt\\jwtwithbcrypt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|solutionrelative:jwtwithbcrypt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|e:\\revv\\csharp\\jwtwithbcrypt\\jwtwithbcrypt\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|solutionrelative:jwtwithbcrypt\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|e:\\revv\\csharp\\jwtwithbcrypt\\jwtwithbcrypt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|solutionrelative:jwtwithbcrypt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|e:\\revv\\csharp\\jwtwithbcrypt\\jwtwithbcrypt\\service\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|solutionrelative:jwtwithbcrypt\\service\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|e:\\revv\\csharp\\jwtwithbcrypt\\jwtwithbcrypt\\settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|solutionrelative:jwtwithbcrypt\\settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|e:\\revv\\csharp\\jwtwithbcrypt\\jwtwithbcrypt\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|solutionrelative:jwtwithbcrypt\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|e:\\revv\\csharp\\jwtwithbcrypt\\jwtwithbcrypt\\model\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|solutionrelative:jwtwithbcrypt\\model\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|e:\\revv\\csharp\\jwtwithbcrypt\\jwtwithbcrypt\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4DBF1AC-4C99-4F70-95B2-0C84CC4206F4}|JWTWithBCrypt\\JWTWithBCrypt.csproj|solutionrelative:jwtwithbcrypt\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Settings\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "JWTWithBCrypt\\Settings\\MongoDbSettings.cs",
+              "ToolTip": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Settings\\MongoDbSettings.cs",
+              "RelativeToolTip": "JWTWithBCrypt\\Settings\\MongoDbSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:22:51.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\appsettings.json",
+              "RelativeDocumentMoniker": "JWTWithBCrypt\\appsettings.json",
+              "ToolTip": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\appsettings.json",
+              "RelativeToolTip": "JWTWithBCrypt\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T11:21:44.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Program.cs",
+              "RelativeDocumentMoniker": "JWTWithBCrypt\\Program.cs",
+              "ToolTip": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Program.cs",
+              "RelativeToolTip": "JWTWithBCrypt\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:25:28.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "JWTWithBCrypt\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "JWTWithBCrypt\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAA6wD4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:25:11.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MongoDbService.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Service\\MongoDbService.cs",
+              "RelativeDocumentMoniker": "JWTWithBCrypt\\Service\\MongoDbService.cs",
+              "ToolTip": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Service\\MongoDbService.cs",
+              "RelativeToolTip": "JWTWithBCrypt\\Service\\MongoDbService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvw0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:24:47.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Settings\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "JWTWithBCrypt\\Settings\\JwtSettings.cs",
+              "ToolTip": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Settings\\JwtSettings.cs",
+              "RelativeToolTip": "JWTWithBCrypt\\Settings\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:22:29.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Model\\LoginModel.cs",
+              "RelativeDocumentMoniker": "JWTWithBCrypt\\Model\\LoginModel.cs",
+              "ToolTip": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Model\\LoginModel.cs",
+              "RelativeToolTip": "JWTWithBCrypt\\Model\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:24:13.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Model\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "JWTWithBCrypt\\Model\\RegisterModel.cs",
+              "ToolTip": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Model\\RegisterModel.cs",
+              "RelativeToolTip": "JWTWithBCrypt\\Model\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:24:26.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Model\\User.cs",
+              "RelativeDocumentMoniker": "JWTWithBCrypt\\Model\\User.cs",
+              "ToolTip": "E:\\revv\\Csharp\\JWTWithBCrypt\\JWTWithBCrypt\\Model\\User.cs",
+              "RelativeToolTip": "JWTWithBCrypt\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:23:12.628Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

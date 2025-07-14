@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "vueappcar.client", "vueappcar.client\vueappcar.client.esproj", "{FCF468DE-4B02-AF17-8026-77863E610733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VueAppCar.Server", "VueAppCar.Server\VueAppCar.Server.csproj", "{292B53AD-65EC-46FF-B7AC-7B076D4F568F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCF468DE-4B02-AF17-8026-77863E610733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF468DE-4B02-AF17-8026-77863E610733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF468DE-4B02-AF17-8026-77863E610733}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FCF468DE-4B02-AF17-8026-77863E610733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF468DE-4B02-AF17-8026-77863E610733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF468DE-4B02-AF17-8026-77863E610733}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{292B53AD-65EC-46FF-B7AC-7B076D4F568F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292B53AD-65EC-46FF-B7AC-7B076D4F568F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292B53AD-65EC-46FF-B7AC-7B076D4F568F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292B53AD-65EC-46FF-B7AC-7B076D4F568F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42D5CD4B-608D-4D25-A5A0-9E913F8178C0}
+	EndGlobalSection
+EndGlobal

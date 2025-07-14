@@ -1,0 +1,10 @@
+E:\revv\Csharp\VueAppCar\VueAppCar.Server\obj\Debug\net8.0\VueAppCar.Server.csproj.AssemblyReference.cache
+E:\revv\Csharp\VueAppCar\VueAppCar.Server\obj\Debug\net8.0\spa.proxy.json
+E:\revv\Csharp\VueAppCar\VueAppCar.Server\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\revv\Csharp\VueAppCar\VueAppCar.Server\obj\Debug\net8.0\VueAppCar.Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\revv\Csharp\VueAppCar\VueAppCar.Server\obj\Debug\net8.0\VueAppCar.Server.AssemblyInfoInputs.cache
+E:\revv\Csharp\VueAppCar\VueAppCar.Server\obj\Debug\net8.0\VueAppCar.Server.AssemblyInfo.cs
+E:\revv\Csharp\VueAppCar\VueAppCar.Server\obj\Debug\net8.0\VueAppCar.Server.csproj.CoreCompileInputs.cache
+E:\revv\Csharp\VueAppCar\VueAppCar.Server\obj\Debug\net8.0\VueAppCar.Server.MvcApplicationPartsAssemblyInfo.cs
+E:\revv\Csharp\VueAppCar\VueAppCar.Server\obj\Debug\net8.0\VueAppCar.Server.MvcApplicationPartsAssemblyInfo.cache
+E:\revv\Csharp\VueAppCar\VueAppCar.Server\obj\Debug\net8.0\VueAppCar.Server.sourcelink.json

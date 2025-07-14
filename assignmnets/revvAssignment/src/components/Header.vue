@@ -11,7 +11,8 @@ import logo from '../images/revv.png';
       </RouterLink>
       <div class="d-flex align-items-center gap-4">
         <a href="https://revv.vin/about-us" class="text-dark fw-medium text-decoration-none">About us</a>
-        <RouterLink to="/login" class="login-btn">Login</RouterLink>
+        <RouterLink to="/login" class="login-btn">User Login</RouterLink>
+        <RouterLink to="/register" class="login-btn">User Register</RouterLink>
       </div>
     </div>
   </nav>

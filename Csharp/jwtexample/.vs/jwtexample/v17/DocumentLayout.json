@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\revv\\Csharp\\jwtexample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|e:\\revv\\csharp\\jwtexample\\jwtexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|solutionrelative:jwtexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|e:\\revv\\csharp\\jwtexample\\jwtexample\\service\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|solutionrelative:jwtexample\\service\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|e:\\revv\\csharp\\jwtexample\\jwtexample\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|solutionrelative:jwtexample\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|e:\\revv\\csharp\\jwtexample\\jwtexample\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|solutionrelative:jwtexample\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|e:\\revv\\csharp\\jwtexample\\jwtexample\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|solutionrelative:jwtexample\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|e:\\revv\\csharp\\jwtexample\\jwtexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|solutionrelative:jwtexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|e:\\revv\\csharp\\jwtexample\\jwtexample\\jwtexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F7A88E06-21EC-4830-A176-A81D63A2E9A2}|jwtexample\\jwtexample.csproj|solutionrelative:jwtexample\\jwtexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\Model\\User.cs",
+              "RelativeDocumentMoniker": "jwtexample\\Model\\User.cs",
+              "ToolTip": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\Model\\User.cs",
+              "RelativeToolTip": "jwtexample\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T10:37:44.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\Model\\LoginModel.cs",
+              "RelativeDocumentMoniker": "jwtexample\\Model\\LoginModel.cs",
+              "ToolTip": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\Model\\LoginModel.cs",
+              "RelativeToolTip": "jwtexample\\Model\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T10:36:09.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\Program.cs",
+              "RelativeDocumentMoniker": "jwtexample\\Program.cs",
+              "ToolTip": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\Program.cs",
+              "RelativeToolTip": "jwtexample\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T10:33:37.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "jwtexample\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "jwtexample\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T10:36:30.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MongoDbService.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\Service\\MongoDbService.cs",
+              "RelativeDocumentMoniker": "jwtexample\\Service\\MongoDbService.cs",
+              "ToolTip": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\Service\\MongoDbService.cs",
+              "RelativeToolTip": "jwtexample\\Service\\MongoDbService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T10:38:50.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\appsettings.json",
+              "RelativeDocumentMoniker": "jwtexample\\appsettings.json",
+              "ToolTip": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\appsettings.json",
+              "RelativeToolTip": "jwtexample\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T10:34:49.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "jwtexample",
+              "DocumentMoniker": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\jwtexample.csproj",
+              "RelativeDocumentMoniker": "jwtexample\\jwtexample.csproj",
+              "ToolTip": "E:\\revv\\Csharp\\jwtexample\\jwtexample\\jwtexample.csproj",
+              "RelativeToolTip": "jwtexample\\jwtexample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-10T10:38:37.044Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

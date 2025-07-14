@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\revv\\Csharp\\DependencyInjectionExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77932FB2-2AFF-4F2C-A608-7DEB2981471F}|DependencyInjectionExample\\DependencyInjectionExample.csproj|e:\\revv\\csharp\\dependencyinjectionexample\\dependencyinjectionexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77932FB2-2AFF-4F2C-A608-7DEB2981471F}|DependencyInjectionExample\\DependencyInjectionExample.csproj|solutionrelative:dependencyinjectionexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77932FB2-2AFF-4F2C-A608-7DEB2981471F}|DependencyInjectionExample\\DependencyInjectionExample.csproj|e:\\revv\\csharp\\dependencyinjectionexample\\dependencyinjectionexample\\controllers\\randomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77932FB2-2AFF-4F2C-A608-7DEB2981471F}|DependencyInjectionExample\\DependencyInjectionExample.csproj|solutionrelative:dependencyinjectionexample\\controllers\\randomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77932FB2-2AFF-4F2C-A608-7DEB2981471F}|DependencyInjectionExample\\DependencyInjectionExample.csproj|e:\\revv\\csharp\\dependencyinjectionexample\\dependencyinjectionexample\\middleware\\randomloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77932FB2-2AFF-4F2C-A608-7DEB2981471F}|DependencyInjectionExample\\DependencyInjectionExample.csproj|solutionrelative:dependencyinjectionexample\\middleware\\randomloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77932FB2-2AFF-4F2C-A608-7DEB2981471F}|DependencyInjectionExample\\DependencyInjectionExample.csproj|e:\\revv\\csharp\\dependencyinjectionexample\\dependencyinjectionexample\\service\\randomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77932FB2-2AFF-4F2C-A608-7DEB2981471F}|DependencyInjectionExample\\DependencyInjectionExample.csproj|solutionrelative:dependencyinjectionexample\\service\\randomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77932FB2-2AFF-4F2C-A608-7DEB2981471F}|DependencyInjectionExample\\DependencyInjectionExample.csproj|e:\\revv\\csharp\\dependencyinjectionexample\\dependencyinjectionexample\\dependencyinjectionexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{77932FB2-2AFF-4F2C-A608-7DEB2981471F}|DependencyInjectionExample\\DependencyInjectionExample.csproj|solutionrelative:dependencyinjectionexample\\dependencyinjectionexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RandomLoggingMiddleware.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\DependencyInjectionExample\\DependencyInjectionExample\\Middleware\\RandomLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionExample\\Middleware\\RandomLoggingMiddleware.cs",
+              "ToolTip": "E:\\revv\\Csharp\\DependencyInjectionExample\\DependencyInjectionExample\\Middleware\\RandomLoggingMiddleware.cs",
+              "RelativeToolTip": "DependencyInjectionExample\\Middleware\\RandomLoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:52:57.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RandomController.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\DependencyInjectionExample\\DependencyInjectionExample\\Controllers\\RandomController.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionExample\\Controllers\\RandomController.cs",
+              "ToolTip": "E:\\revv\\Csharp\\DependencyInjectionExample\\DependencyInjectionExample\\Controllers\\RandomController.cs",
+              "RelativeToolTip": "DependencyInjectionExample\\Controllers\\RandomController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:52:32.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RandomService.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\DependencyInjectionExample\\DependencyInjectionExample\\Service\\RandomService.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionExample\\Service\\RandomService.cs",
+              "ToolTip": "E:\\revv\\Csharp\\DependencyInjectionExample\\DependencyInjectionExample\\Service\\RandomService.cs",
+              "RelativeToolTip": "DependencyInjectionExample\\Service\\RandomService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:51:57.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\revv\\Csharp\\DependencyInjectionExample\\DependencyInjectionExample\\Program.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionExample\\Program.cs",
+              "ToolTip": "E:\\revv\\Csharp\\DependencyInjectionExample\\DependencyInjectionExample\\Program.cs",
+              "RelativeToolTip": "DependencyInjectionExample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:59:54.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjectionExample.csproj",
+              "DocumentMoniker": "E:\\revv\\Csharp\\DependencyInjectionExample\\DependencyInjectionExample\\DependencyInjectionExample.csproj",
+              "RelativeDocumentMoniker": "DependencyInjectionExample\\DependencyInjectionExample.csproj",
+              "ToolTip": "E:\\revv\\Csharp\\DependencyInjectionExample\\DependencyInjectionExample\\DependencyInjectionExample.csproj",
+              "RelativeToolTip": "DependencyInjectionExample\\DependencyInjectionExample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-10T07:50:11.624Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
