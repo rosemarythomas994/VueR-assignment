@@ -101,8 +101,9 @@ async function deleteCar(carId: string) {
 }
 
 function goToAddCar() {
-  router.push({ name: 'AddCar' }); // Make sure your route is named "AddCar"
+  router.push({ name: 'AddCar' }); 
 }
+const baseUrl = import.meta.env.VITE_BASE_API_URL.replace('/api', '');
 
 </script>
 
@@ -113,11 +114,11 @@ function goToAddCar() {
       <h1 class="greeting">Welcome, {{ name }}</h1>
       <p class="tagline">We're glad to have you back 🎉</p>
     </div>
-<div class="text-end mb-4">
-  <button class="btn btn-success" @click="goToAddCar">
-    + Add Car
-  </button>
-</div>
+    <div class="text-end mb-4">
+      <button class="btn btn-success" @click="goToAddCar">
+        + Add Car
+      </button>
+    </div>
     <div v-if="paginatedCars.length === 0" class="text-center mb-4">
       <p>No cars available.</p>
     </div>
@@ -125,7 +126,7 @@ function goToAddCar() {
     <div class="row g-4 mb-4">
       <div class="col-md-4" v-for="car in paginatedCars" :key="car.id">
         <div class="card h-100 shadow-sm">
-          <img :src="`../images/${car.image}`" class="card-img-top" alt="Car Image" />
+<img :src="`${baseUrl}/images/${car.image}`" class="card-img-top" alt="Car Image" />
           <div class="card-body">
             <h5 class="card-title">{{ car.brand }} {{ car.model }} ({{ car.year }})</h5>
             <p class="card-text">
@@ -148,7 +149,8 @@ function goToAddCar() {
         <li class="page-item" :class="{ disabled: currentPage === 1 }">
           <a class="page-link" href="#" @click.prevent="goToPage(currentPage - 1)">«</a>
         </li>
-        <li class="page-item" v-for="page in paginationRange" :key="page" :class="{ active: page === currentPage, disabled: page === '...' }">
+        <li class="page-item" v-for="page in paginationRange" :key="page"
+          :class="{ active: page === currentPage, disabled: page === '...' }">
           <a class="page-link" href="#" @click.prevent="goToPage(page)">{{ page }}</a>
         </li>
         <li class="page-item" :class="{ disabled: currentPage === totalPages }">
@@ -165,10 +167,12 @@ function goToAddCar() {
   font-size: 2.5rem;
   color: blue;
 }
+
 .tagline {
   font-size: 1.25rem;
   color: #555;
 }
+
 .welcome-card {
   background-color: white;
   padding: 2rem;
@@ -176,36 +180,45 @@ function goToAddCar() {
   text-align: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
 .card {
   border: none;
   border-radius: 0.5rem;
 }
+
 .card-img-top {
   height: 200px;
   object-fit: cover;
 }
+
 .btn-primary {
   background-color: #007bff;
   border-color: #007bff;
 }
+
 .btn-primary:hover {
   background-color: #0056b3;
 }
+
 .btn-danger {
   background-color: #dc3545;
   border-color: #dc3545;
 }
+
 .btn-danger:hover {
   background-color: #bb2d3b;
 }
+
 .pagination-nav .page-link {
   color: #003399;
 }
+
 .pagination-nav .active .page-link {
   background-color: #007bff;
   border-color: #007bff;
   color: white;
 }
+
 .pagination-nav .disabled .page-link {
   color: #6c757d;
   pointer-events: none;

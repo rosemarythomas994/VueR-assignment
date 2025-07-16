@@ -10,75 +10,127 @@ const errorMessage = ref('');
 const user = JSON.parse(localStorage.getItem('loggedInUser') || '{}');
 const token = localStorage.getItem('token');
 
-const newCar = ref({
-  image: '',
-  brand: '',
-  model: '',
-  year: new Date().getFullYear(),
-  place: '',
-  number: 0,
-  date: '',
-  userId: user.email || '',
-  createdAt: '',
-  updatedAt: ''
+// File input
+const imageFile = ref<File | null>(null);
+
+// Form data
+const form = ref({
+    brand: '',
+    model: '',
+    year: new Date().getFullYear(),
+    place: '',
+    number: 0,
+    date: '',
+    userId: user.email || ''
 });
 
+function onFileChange(e: Event) {
+    const target = e.target as HTMLInputElement;
+    if (target.files && target.files.length > 0) {
+        imageFile.value = target.files[0];
+    }
+}
+
 async function saveNewCar() {
-  if (!newCar.value.brand.trim() || !newCar.value.model.trim()) {
-    errorMessage.value = 'Brand and Model are required.';
-    return;
+    errorMessage.value = '';
+
+    if (!form.value.brand || !form.value.model || !imageFile.value) {
+        errorMessage.value = 'Image, Brand, and Model are required.';
+        return;
+    }
+
+    const formData = new FormData();
+    formData.append('ImageFile', imageFile.value); // ✅ Match C# property
+    formData.append('Brand', form.value.brand);
+    formData.append('Model', form.value.model);
+    formData.append('Year', form.value.year.toString());
+    formData.append('Place', form.value.place);
+    formData.append('Number', form.value.number.toString());
+    formData.append('Date', form.value.date);
+    formData.append('UserId', form.value.userId);
+
+    try {
+        await axios.post('http://localhost:5058/api/Car', formData, {
+            headers: {
+                Authorization: `Bearer ${token}`
+            }
+        });
+
+        router.push('/welcome');
+    } catch (err: any) {
+  let msg = 'Failed to add car.';
+  if (axios.isAxiosError(err)) {
+    if (err.response?.data?.errors) {
+      const errors = err.response.data.errors as Record<string, string[]>;
+      console.error('Validation errors:', errors);
+      msg = Object.entries(errors)
+        .map(([key, val]) => `${key}: ${val.join(', ')}`)
+        .join(' | ');
+    } else if (err.response?.data?.message) {
+      msg = err.response.data.message;
+    }
   }
+  errorMessage.value = msg;
+}
+}
 
-  try {
-    newCar.value.createdAt = new Date().toISOString();
-    newCar.value.updatedAt = new Date().toISOString();
-
-    await axios.post('http://localhost:5058/api/Car', newCar.value, {
-      headers: { Authorization: `Bearer ${token}` }
-    });
-
-    router.push('/welcome');
-  } catch (err: any) {
-    errorMessage.value = err.response?.data?.message || 'Failed to add car.';
-  }
+function goToAllCars() {
+    router.push('/all-cars');
 }
 </script>
 
 <template>
-  <div>
     <Header />
     <div class="container my-5">
-      <h2 class="mb-4">Add New Car</h2>
-      <form @submit.prevent="saveNewCar" class="card p-4 shadow-sm">
-        <div v-if="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+        <h2 class="mb-4">Add New Car</h2>
 
-        <div class="mb-3" v-for="(label, key) in {
-          image: 'Image URL',
-          brand: 'Brand',
-          model: 'Model',
-          year: 'Year',
-          place: 'Place',
-          number: 'Registration Number',
-          date: 'Date',
-        }" :key="key">
-          <label class="form-label">{{ label }}</label>
-          <input
-            class="form-control"
-            :type="['year', 'number'].includes(key) ? 'number' : key === 'date' ? 'date' : 'text'"
-            v-model="newCar[key]"
-            required
-          />
-        </div>
+        <form @submit.prevent="saveNewCar" class="card p-4 shadow-sm">
+            <div v-if="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
 
-        <button type="submit" class="btn btn-success">Save</button>
-      </form>
+            <div class="mb-3">
+                <label class="form-label">Image</label>
+                <input class="form-control" type="file" accept="image/*" @change="onFileChange" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Brand</label>
+                <input class="form-control" v-model="form.brand" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Model</label>
+                <input class="form-control" v-model="form.model" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Year</label>
+                <input class="form-control" type="number" v-model="form.year" min="1900" max="2099" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Place</label>
+                <input class="form-control" v-model="form.place" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Registration Number</label>
+                <input class="form-control" type="number" v-model="form.number" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Date</label>
+                <input class="form-control" type="date" v-model="form.date" required />
+            </div>
+
+            <button type="submit" class="btn btn-success me-2">Save</button>
+            <button type="button" class="btn btn-secondary" @click="goToAllCars">View All Cars</button>
+        </form>
     </div>
     <Footer />
-  </div>
 </template>
 
 <style scoped>
 .container {
-  max-width: 600px;
+    max-width: 600px;
 }
 </style>

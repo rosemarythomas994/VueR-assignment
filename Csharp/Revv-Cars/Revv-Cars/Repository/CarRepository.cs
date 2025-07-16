@@ -37,13 +37,17 @@ namespace Revv_Cars.Repository
         public void Update(string id, Car carIn)
         {
             var filter = Builders<Car>.Filter.Eq("Id", id);
-            _cars.ReplaceOne(filter, carIn);
+            var result = _cars.ReplaceOne(filter, carIn);
+            if (result.MatchedCount == 0)
+                throw new KeyNotFoundException($"No car found with ID {id}");
         }
 
         public void Remove(string id)
         {
             var filter = Builders<Car>.Filter.Eq("Id", id);
-            _cars.DeleteOne(filter);
+            var result = _cars.DeleteOne(filter);
+            if (result.DeletedCount == 0)
+                throw new KeyNotFoundException($"No car found to delete with ID {id}");
         }
     }
 }

@@ -1,34 +1,51 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using NLog;
+using NLog.Web;
+using Revv_Cars.Filter;
+using Revv_Cars.Middleware;
 using Revv_Cars.Model;
 using Revv_Cars.Repository;
 using Revv_Cars.Service;
-using System.Text;
+using MicrosoftLogLevel = Microsoft.Extensions.Logging.LogLevel;
 
-var builder = WebApplication.CreateBuilder(args);
+var logger = NLog.LogManager.Setup().LoadConfigurationFromFile("nlog.config").GetCurrentClassLogger();
 
-// Read config
-builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDBSettings"));
-builder.Services.Configure<JwtSettings>(
-    builder.Configuration.GetSection("JwtSettings")
-);
-var jwtSettings = builder.Configuration
-    .GetSection("JwtSettings")
-    .Get<JwtSettings>();
-var key = Encoding.UTF8.GetBytes(jwtSettings.SecretKey); 
 
-// Dependency Injection
-builder.Services.AddSingleton<ICarRepository, CarRepository>();
-builder.Services.AddSingleton<ICarService, CarService>();
-builder.Services.AddSingleton<IUserRepository, UserRepository>();
-builder.Services.AddSingleton<ILoginService, LoginService>();
+try
+{
+    logger.Debug("Starting Revv-Cars Application");
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
+    var builder = WebApplication.CreateBuilder(args);
 
-// ✅ Swagger + JWT Auth support
-builder.Services.AddSwaggerGen(o =>
+    // Use NLog for Dependency Injection logging
+    builder.Logging.ClearProviders();
+    builder.Logging.SetMinimumLevel(MicrosoftLogLevel.Trace);
+    builder.Host.UseNLog();
+    // Read config
+    builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDBSettings"));
+    builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
+
+    var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>();
+    var key = Encoding.UTF8.GetBytes(jwtSettings.SecretKey);
+
+    // Dependency Injection
+    builder.Services.AddSingleton<ICarRepository, CarRepository>();
+    builder.Services.AddSingleton<ICarService, CarService>();
+    builder.Services.AddSingleton<IUserRepository, UserRepository>();
+    builder.Services.AddSingleton<ILoginService, LoginService>();
+
+    builder.Services.AddControllers(options =>
+    {
+        options.Filters.Add<GlobalExceptionFilter>();
+    });
+
+    builder.Services.AddEndpointsApiExplorer();
+
+    // ✅ Swagger + JWT Auth support
+    builder.Services.AddSwaggerGen(o =>
 {
     o.SwaggerDoc("v1", new OpenApiInfo { Title = "Revv-Cars API", Version = "v1" });
     o.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -85,6 +102,7 @@ builder.Services.AddCors(options =>
     });
 });
 builder.Services.AddAuthorization();
+
 var app = builder.Build();
 
 
@@ -98,9 +116,22 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCors("AllowAll");
+    app.UseStaticFiles(); 
+    app.UseMiddleware<ExceptionHandlingMiddleware>();
+
+    app.UseCors("AllowAll");
 app.UseHttpsRedirection();
 app.UseAuthentication(); 
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+}
+catch (Exception ex)
+{
+    logger.Error(ex, "Application stopped due to an exception");
+    throw;
+}
+finally
+{
+    LogManager.Shutdown();
+}

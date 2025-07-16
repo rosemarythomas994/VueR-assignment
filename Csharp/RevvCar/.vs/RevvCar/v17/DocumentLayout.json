@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\revv\\Csharp\\RevvCar\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4766907B-3068-4523-8A12-3E71344D060F}|RevvCar\\RevvCar.csproj|e:\\revv\\csharp\\revvcar\\revvcar\\revvcar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4766907B-3068-4523-8A12-3E71344D060F}|RevvCar\\RevvCar.csproj|solutionrelative:revvcar\\revvcar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4766907B-3068-4523-8A12-3E71344D060F}|RevvCar\\RevvCar.csproj|e:\\revv\\csharp\\revvcar\\revvcar\\revvview\\src\\router\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{4766907B-3068-4523-8A12-3E71344D060F}|RevvCar\\RevvCar.csproj|solutionrelative:revvcar\\revvview\\src\\router\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
@@ -101,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4766907B-3068-4523-8A12-3E71344D060F}|RevvCar\\RevvCar.csproj|e:\\revv\\csharp\\revvcar\\revvcar\\revvview\\src\\components\\cards.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4766907B-3068-4523-8A12-3E71344D060F}|RevvCar\\RevvCar.csproj|solutionrelative:revvcar\\revvview\\src\\components\\cards.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4766907B-3068-4523-8A12-3E71344D060F}|RevvCar\\RevvCar.csproj|e:\\revv\\csharp\\revvcar\\revvcar\\revvcar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4766907B-3068-4523-8A12-3E71344D060F}|RevvCar\\RevvCar.csproj|solutionrelative:revvcar\\revvcar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4766907B-3068-4523-8A12-3E71344D060F}|RevvCar\\RevvCar.csproj|e:\\revv\\csharp\\revvcar\\revvcar\\revvview\\vitest.setup.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -222,20 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "package.json",
-              "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\package.json",
-              "RelativeDocumentMoniker": "RevvCar\\package.json",
-              "ToolTip": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\package.json",
-              "RelativeToolTip": "RevvCar\\package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-14T05:28:32.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "vite.config.ts",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\vite.config.ts",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\vite.config.ts",
@@ -247,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\Program.cs",
               "RelativeDocumentMoniker": "RevvCar\\Program.cs",
@@ -259,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": ".gitignore",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\.gitignore",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\.gitignore",
@@ -271,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\appsettings.json",
               "RelativeDocumentMoniker": "RevvCar\\appsettings.json",
@@ -283,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "vite-env.d.ts",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\vite-env.d.ts",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\vite-env.d.ts",
@@ -295,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "style.css",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\style.css",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\style.css",
@@ -307,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "shims-images.d.ts",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\shims-images.d.ts",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\shims-images.d.ts",
@@ -319,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "shims-vue.d.ts",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\shims-vue.d.ts",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\shims-vue.d.ts",
@@ -331,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "main.ts",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\main.ts",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\main.ts",
@@ -343,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Header.vue",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\components\\Header.vue",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\components\\Header.vue",
@@ -351,12 +338,11 @@
               "RelativeToolTip": "RevvCar\\RevvView\\src\\components\\Header.vue",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-07-11T10:38:37.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T10:38:37.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Register.vue",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\components\\Register.vue",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\components\\Register.vue",
@@ -364,12 +350,11 @@
               "RelativeToolTip": "RevvCar\\RevvView\\src\\components\\Register.vue",
               "ViewState": "AgIAAFEAAAAAAAAAAAAuwG4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-07-11T11:35:49.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T11:35:49.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.ts",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\router\\index.ts",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\router\\index.ts",
@@ -382,7 +367,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "RevvCar.csproj",
+              "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvCar.csproj",
+              "RelativeDocumentMoniker": "RevvCar\\RevvCar.csproj",
+              "ToolTip": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvCar.csproj",
+              "RelativeToolTip": "RevvCar\\RevvCar.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-11T07:42:34.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "package.json",
+              "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\package.json",
+              "RelativeDocumentMoniker": "RevvCar\\package.json",
+              "ToolTip": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\package.json",
+              "RelativeToolTip": "RevvCar\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T05:28:32.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "package.json",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\package.json",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\package.json",
@@ -394,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "index.html",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\index.html",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\index.html",
@@ -406,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "build-frontend.ps1",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\build-frontend.ps1",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\build-frontend.ps1",
@@ -418,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "App.vue",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\App.vue",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\App.vue",
@@ -430,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Welcome.vue",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\components\\Welcome.vue",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\components\\Welcome.vue",
@@ -442,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Slides.vue",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\components\\Slides.vue",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\components\\Slides.vue",
@@ -454,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Section.vue",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\components\\Section.vue",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\components\\Section.vue",
@@ -466,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Login.vue",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\components\\Login.vue",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\components\\Login.vue",
@@ -478,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Home.vue",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\components\\Home.vue",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\components\\Home.vue",
@@ -490,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Footer.vue",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\components\\Footer.vue",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\components\\Footer.vue",
@@ -502,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "CarEdit.vue",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\components\\CarEdit.vue",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\components\\CarEdit.vue",
@@ -514,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Cards.vue",
               "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvView\\src\\components\\Cards.vue",
               "RelativeDocumentMoniker": "RevvCar\\RevvView\\src\\components\\Cards.vue",
@@ -523,18 +533,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
               "WhenOpened": "2025-07-11T08:30:59.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "RevvCar.csproj",
-              "DocumentMoniker": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvCar.csproj",
-              "RelativeDocumentMoniker": "RevvCar\\RevvCar.csproj",
-              "ToolTip": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvCar.csproj",
-              "RelativeToolTip": "RevvCar\\RevvCar.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-11T07:42:34.72Z"
             },
             {
               "$type": "Document",
@@ -833,7 +831,8 @@
               "ToolTip": "E:\\revv\\Csharp\\RevvCar\\RevvCar\\RevvCar.csproj",
               "RelativeToolTip": "RevvCar\\RevvCar.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-11T10:41:19.068Z"
+              "WhenOpened": "2025-07-11T10:41:19.068Z",
+              "EditorCaption": ""
             }
           ]
         }
