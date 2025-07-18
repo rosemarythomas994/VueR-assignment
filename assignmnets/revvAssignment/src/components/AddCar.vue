@@ -40,7 +40,7 @@ async function saveNewCar() {
     }
 
     const formData = new FormData();
-    formData.append('ImageFile', imageFile.value); // ✅ Match C# property
+    formData.append('ImageFile', imageFile.value); 
     formData.append('Brand', form.value.brand);
     formData.append('Model', form.value.model);
     formData.append('Year', form.value.year.toString());

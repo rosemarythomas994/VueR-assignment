@@ -1,0 +1,6 @@
+@Revv_Cars_Onion_Final_HostAddress = http://localhost:5227
+
+GET {{Revv_Cars_Onion_Final_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

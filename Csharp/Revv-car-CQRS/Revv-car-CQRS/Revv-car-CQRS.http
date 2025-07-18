@@ -1,0 +1,6 @@
+@Revv_car_CQRS_HostAddress = http://localhost:5015
+
+GET {{Revv_car_CQRS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
