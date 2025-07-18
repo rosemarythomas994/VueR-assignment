@@ -37,25 +37,39 @@ namespace Revv.Cars.handler.Handler
             }
 
             // Map from Shared.Car to Domain.Model.Car
-            var sharedCar = new Revv.cars.Shared.Car
-            {
-                Id = MongoDB.Bson.ObjectId.GenerateNewId().ToString(),
-                Image = filename,
-                Brand = cmd.Brand,
-                Model = cmd.Model,
-                Year = cmd.Year,
-                Place = cmd.Place,
-                Number = cmd.Number,
-                Date = cmd.Date.ToString("yyyy-MM-dd"),
-                CreatedAt = DateTime.UtcNow,
-                UpdatedAt = DateTime.UtcNow,
-                UserId = cmd.UserId
-            };
+            //var sharedCar = new Revv.cars.Shared.Car
+            //{
+            //    Id = MongoDB.Bson.ObjectId.GenerateNewId().ToString(),
+            //    Image = filename,
+            //    Brand = cmd.Brand,
+            //    Model = cmd.Model,
+            //    Year = cmd.Year,
+            //    Place = cmd.Place,
+            //    Number = cmd.Number,
+            //    Date = cmd.Date.ToString("yyyy-MM-dd"),
+            //    CreatedAt = DateTime.UtcNow,
+            //    UpdatedAt = DateTime.UtcNow,
+            //    UserId = cmd.UserId
+            //};
 
-            var domainCar = _mapper.Map<Revv.cars.Domain.Model.Car>(sharedCar);
+            //var domainCar = _mapper.Map<Revv.cars.Domain.Model.Car>(sharedCar);
+            //var result = _repo.Create(domainCar);
+
+            //return _mapper.Map<CreateCarCommandResponse>(result);
+
+
+            var sharedCar = _mapper.Map<cars.Shared.Car>(cmd);
+
+            sharedCar.Id = MongoDB.Bson.ObjectId.GenerateNewId().ToString();
+            sharedCar.Image = filename;
+            sharedCar.CreatedAt = DateTime.UtcNow;
+            sharedCar.UpdatedAt = DateTime.UtcNow;
+
+            var domainCar = _mapper.Map<cars.Domain.Model.Car>(sharedCar);
             var result = _repo.Create(domainCar);
 
             return _mapper.Map<CreateCarCommandResponse>(result);
+
         }
     }
 }
