@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Revv_car_CQRS.Commands;
 using Revv_car_CQRS.Model;
+using Revv_car_CQRS.Notifications;
 using Revv_car_CQRS.Repository;
 
 namespace Revv_car_CQRS.CommandHandlers
@@ -8,10 +9,11 @@ namespace Revv_car_CQRS.CommandHandlers
     public class CreateCarCommandHandler : IRequestHandler<CreateCarCommandRequest, CreateCarCommandResponse>
     {
         private readonly ICarRepository _repo;
-
-        public CreateCarCommandHandler(ICarRepository repo)
+        private readonly IMediator _mediator;
+        public CreateCarCommandHandler(ICarRepository repo, IMediator mediator)
         {
             _repo = repo;
+            _mediator = mediator;
         }
 
         public async Task<CreateCarCommandResponse> Handle(CreateCarCommandRequest cmd, CancellationToken ct)
@@ -45,7 +47,15 @@ namespace Revv_car_CQRS.CommandHandlers
             };
 
             var result = _repo.Create(car);
-
+            await _mediator.Publish(new CarCreatedEvent
+            {
+                CarId = result.Id,
+                UserId = result.UserId,
+                Brand = result.Brand,
+                Model = result.Model,
+                Year = result.Year,
+                Place = result.Place
+            });
             return new CreateCarCommandResponse
             {
                 Id = result.Id,

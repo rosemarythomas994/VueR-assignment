@@ -9,6 +9,7 @@ using Revv_car_CQRS.Commands;
 using Revv_car_CQRS.Filter;
 using Revv_car_CQRS.Middleware;
 using Revv_car_CQRS.Model;
+using Revv_car_CQRS.Notifications.Handlers;
 using Revv_car_CQRS.Repository;
 
 using MicrosoftLogLevel = Microsoft.Extensions.Logging.LogLevel;
@@ -107,6 +108,8 @@ builder.Services.AddAuthorization();
 
     builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssemblyContaining<GetAllCarsQuery>());
+    builder.Services.AddMediatR(cfg =>
+        cfg.RegisterServicesFromAssemblyContaining<CarCreatedEventHandler>());
 
 
     //builder.Services.AddMediatR(typeof(GetAllCarsQuery).Assembly);
