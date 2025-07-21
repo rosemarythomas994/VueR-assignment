@@ -11,7 +11,7 @@ using Revv.cars.Shared;
 using Revv.cars.Shared.Queries;
 
 
-namespace Revv.cars.handler.Handler
+namespace Revv.cars.handler.QueryHandler
 {
     public class GetAllCarsQueryHandler : IRequestHandler<GetAllCarsQueryRequest, GetAllCarsQueryResponse>
     {

@@ -1,5 +1,5 @@
 ﻿using Revv.cars.Domain;
-using Revv.cars.handler.Handler;
+using Revv.cars.handler.QueryHandler;
 using Revv.cars.handler.RepoInterface;
 using Revv.cars.Repo.repository;
 

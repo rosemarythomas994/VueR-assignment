@@ -126,9 +126,7 @@ function goBackToWelcome() {
                 <input class="form-control" type="date" v-model="form.date" required />
             </div>
 
-            <!-- <button type="submit" class="btn btn-success me-2">Save</button>
-            <button type="button" class="btn btn-secondary" @click="goToAllCars">View All Cars</button>
-        <button type="button" class="btn btn-outline-danger" @click="goBackToWelcome">Cancel</button> -->
+        
 <div class="d-flex gap-2 justify-content-start">
     <button type="submit" class="btn btn-success">Save</button>
     <button type="button" class="btn btn-secondary" @click="goToAllCars">View All Cars</button>

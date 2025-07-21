@@ -2,7 +2,7 @@
 using Revv_car_CQRS.Queries;
 using Revv_car_CQRS.Repository;
 
-namespace Revv_car_CQRS.Handlers
+namespace Revv_car_CQRS.QueryHandler
 {
     public class GetAllCarsQueryHandler : IRequestHandler<GetAllCarsQueryRequest, GetAllCarsQueryResponse>
     {

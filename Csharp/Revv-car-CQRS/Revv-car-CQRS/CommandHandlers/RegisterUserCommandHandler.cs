@@ -3,7 +3,7 @@ using Revv_car_CQRS.Commands;
 using Revv_car_CQRS.Model;
 using Revv_car_CQRS.Repository;
 
-namespace Revv_car_CQRS.Handlers
+namespace Revv_car_CQRS.CommandHandlers
 {
     public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommandRequest, RegisterUserCommandResponse>
     {

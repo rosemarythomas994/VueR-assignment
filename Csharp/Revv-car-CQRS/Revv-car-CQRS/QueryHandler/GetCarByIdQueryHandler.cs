@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MediatR;
-using Revv.cars.handler.RepoInterface;
-using Revv.cars.Shared.Queries;
+﻿using MediatR;
+using Revv_car_CQRS.Queries;
+using Revv_car_CQRS.Repository;
 
-namespace Revv.cars.handler.Handler
+namespace Revv_car_CQRS.QueryHandler
 {
     public class GetCarByIdQueryHandler : IRequestHandler<GetCarByIdQueryRequest, GetCarByIdQueryResponse>
     {

@@ -7,7 +7,7 @@ using MediatR;
 using Revv.cars.handler.RepoInterface;
 using Revv.cars.Shared.Commands;
 
-namespace Revv.cars.handler.Handler
+namespace Revv.cars.handler.CommandHandler
 {
     public class UpdateCarCommandHandler : IRequestHandler<UpdateCarCommandRequest, UpdateCarCommandResponse>
     {
