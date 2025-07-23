@@ -23,7 +23,6 @@ namespace Revv.cars.Domain
 
 
 
-
             /*This maps Domain.Car directly to your CreateCarCommandResponse DTO
              * Not strictly necessary for your question, but helpful if your response is separate from Shared.Car
              * */

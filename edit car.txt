@@ -70,29 +70,43 @@ async function save() {
   const token = localStorage.getItem('token');
 
   try {
-    const formData = new FormData();
+    if (newImageFile.value) {
+      // Image changed → use multipart
+      const formData = new FormData();
+      formData.append('ImageFile', newImageFile.value);
+      formData.append('Brand', car.value.brand);
+      formData.append('Model', car.value.model);
+      formData.append('Year', car.value.year.toString());
+      formData.append('Place', car.value.place);
+      formData.append('Number', car.value.number.toString());
+      formData.append('Date', car.value.date);
+      formData.append('UserId', user.email); // required
 
-    formData.append('ImageFile', newImageFile.value ?? new Blob([], { type: 'image/jpeg' }), newImageFile.value?.name ?? 'empty.jpg');
-    formData.append('Brand', car.value.brand);
-    formData.append('Model', car.value.model);
-    formData.append('Year', car.value.year.toString());
-    formData.append('Place', car.value.place);
-    formData.append('Number', car.value.number.toString());
-    formData.append('Date', car.value.date);
-    formData.append('UserId', user.email); // Required
+      await axios.put(`http://localhost:5015/api/Car/${car.value.id}`, formData, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+          'Content-Type': 'multipart/form-data'
+        }
+      });
+    } else {
+      // No image changed → send pure JSON
+      const payload = {
+        ...car.value,
+        userId: user.email,
+        updatedAt: new Date().toISOString()
+      };
 
-    await axios.put(`http://localhost:5015/api/Car/${car.value.id}`, formData, {
-      headers: {
-        Authorization: `Bearer ${token}`,
-        'Content-Type': 'multipart/form-data'
-      }
-    });
+      await axios.put(`http://localhost:5015/api/Car`, payload, {
+        headers: { Authorization: `Bearer ${token}` }
+      });
+    }
 
     router.push({ name: 'Welcome' });
   } catch (err: any) {
     error.value = err.response?.data?.message || 'Failed to update car.';
   }
 }
+
 
 function cancel() {
   router.push({ name: 'Welcome' });
@@ -173,7 +187,7 @@ function cancel() {
 
       <div class="mb-3">
         <label class="form-label">Created At</label>
-        <input class="form-control" type="date" v-model="car.createdAt"disabled />
+        <input class="form-control" type="date" v-model="car.createdAt" disabled />
       </div>
 
       <div class="mb-3">

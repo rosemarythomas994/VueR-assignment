@@ -1,5 +1,4 @@
-﻿// File: Notifications/Handlers/CarCreatedEventHandler.cs
-using MediatR;
+﻿using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -14,7 +13,7 @@ namespace Revv_car_CQRS.Notifications.Handlers
         }
         public Task Handle(CarCreatedEvent notification, CancellationToken cancellationToken)
         {
-            _logger.LogInformation("🚘 [EVENT FIRED] New car created:");
+            _logger.LogInformation(" [EVENT FIRED] New car created:");
             _logger.LogInformation("Car ID: {CarId}, Brand: {Brand}, Model: {Model}, Year: {Year}, Place: {Place}, UserId: {UserId}",
                 notification.CarId,
                 notification.Brand,

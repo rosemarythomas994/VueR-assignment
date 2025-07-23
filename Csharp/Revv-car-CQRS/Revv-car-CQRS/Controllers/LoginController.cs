@@ -21,7 +21,7 @@ namespace Revv_car_CQRS.Controllers
         private readonly IMediator _mediator;
         private readonly ILogger<LoginController> _logger;
 
-        public LoginController(IMediator mediator, ILogger<CarController> logger)
+        public LoginController(IMediator mediator, ILogger<LoginController> logger)
         {
             _mediator = mediator;
             _logger = logger;
