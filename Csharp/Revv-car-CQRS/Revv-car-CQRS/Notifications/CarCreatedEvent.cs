@@ -1,5 +1,4 @@
-﻿// File: Notifications/CarCreatedEvent.cs
-using MediatR;
+﻿using MediatR;
 
 namespace Revv_car_CQRS.Notifications
 {

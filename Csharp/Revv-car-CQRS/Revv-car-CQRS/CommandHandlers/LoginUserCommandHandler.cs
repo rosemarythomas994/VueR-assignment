@@ -28,7 +28,6 @@ namespace Revv_car_CQRS.CommandHandlers
             if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.Password))
                 throw new UnauthorizedAccessException("Invalid username or password.");
 
-            // Create JWT Token
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.SecretKey));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 

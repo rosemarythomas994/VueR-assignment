@@ -19,7 +19,6 @@ namespace Revv_car_CQRS.CommandHandlers
             if (car == null)
                 return new UpdateCarCommandResponse { Success = false, Message = $"Car with ID {cmd.Id} not found." };
 
-            // Handle image upload
             if (cmd.ImageFile != null && cmd.ImageFile.Length > 0)
             {
                 var folder = Path.Combine("wwwroot", "images");
@@ -32,7 +31,6 @@ namespace Revv_car_CQRS.CommandHandlers
                 using var stream = new FileStream(filePath, FileMode.Create);
                 await cmd.ImageFile.CopyToAsync(stream, ct);
 
-                // Delete old image if it exists
                 if (!string.IsNullOrEmpty(car.Image))
                 {
                     var oldPath = Path.Combine(folder, car.Image);
@@ -49,7 +47,6 @@ namespace Revv_car_CQRS.CommandHandlers
             if (!DateTime.TryParse(cmd.Date, out var parsedDate))
                 return new UpdateCarCommandResponse { Success = false, Message = "Invalid Date format." };
 
-            // Update fields
             car.Brand = cmd.Brand;
             car.Model = cmd.Model;
             car.Year = cmd.Year;

@@ -7,7 +7,7 @@ namespace Revv_car_CQRS.Model
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string? Id { get; set; }  // ✅ Nullable
+        public string? Id { get; set; }  
 
         [BsonElement("username")]
         public string Username { get; set; }

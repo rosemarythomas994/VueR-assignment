@@ -111,17 +111,10 @@ builder.Services.AddAuthorization();
     builder.Services.AddMediatR(cfg =>
         cfg.RegisterServicesFromAssemblyContaining<CarCreatedEventHandler>());
 
-
     //builder.Services.AddMediatR(typeof(GetAllCarsQuery).Assembly);
     //builder.Services.AddMediatR(typeof(LoginUserCommand).Assembly);
 
-
     var app = builder.Build();
-
-
-
-
-
 
 // Middleware pipeline
 if (app.Environment.IsDevelopment())
