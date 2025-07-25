@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
-import Header from './Header.vue';
-import Footer from './Footer.vue';
+
 import axios from 'axios';
 
 interface Car {
@@ -108,7 +107,7 @@ const baseUrl = import.meta.env.VITE_BASE_API_URL.replace('/api', '');
 </script>
 
 <template>
-  <Header />
+  
   <div class="container my-5">
     <div class="welcome-card shadow mb-4">
       <h1 class="greeting">Welcome, {{ name }}</h1>
@@ -159,7 +158,7 @@ const baseUrl = import.meta.env.VITE_BASE_API_URL.replace('/api', '');
       </ul>
     </nav>
   </div>
-  <Footer />
+
 </template>
 
 <style scoped>

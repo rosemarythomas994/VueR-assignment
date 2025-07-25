@@ -4,7 +4,7 @@
    
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-	  <RootNamespace>Revv.cars.Repo</RootNamespace>
+	  <RootNamespace>Revv.cars.Application.Repository</RootNamespace>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Revv.cars.handler\Revv.cars.DomainService.csproj" />
+    <ProjectReference Include="..\Revv.cars.DomainService\Revv.cars.DomainService.csproj" />
   </ItemGroup>
 
 </Project>

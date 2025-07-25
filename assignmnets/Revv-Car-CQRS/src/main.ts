@@ -13,6 +13,10 @@ import App from './App.vue';
 // This enables page navigation using Vue Router (e.g., SPA-style navigation between /home, /about).
 import router from './router';
 
+
+// ✅ Import Pinia and create store
+import { createPinia } from 'pinia';
+
 // These lines are importing:
 // library: A central place to register icons for use in Vue.
 // FontAwesomeIcon: A Vue component that lets you use <font-awesome-icon /> in your templates.
@@ -34,5 +38,8 @@ library.add(faNetworkWired, faFileLines, faUser, faLaptopCode, faClipboardCheck)
 const app = createApp(App);
 // Globally registers the <font-awesome-icon /> component so you can use it in any template without importing it every time.
 app.component('font-awesome-icon', FontAwesomeIcon);
+const pinia = createPinia();
+app.use(pinia);
+
 app.use(router);
 app.mount('#app');

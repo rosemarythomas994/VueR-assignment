@@ -3,9 +3,6 @@ import { ref, onMounted } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import axios from 'axios';
 
-import Header from './Header.vue';
-import Footer from './Footer.vue';
-
 interface Car {
   id: string;
   image: string;
@@ -100,7 +97,7 @@ function cancel() {
 </script>
 
 <template>
-  <Header />
+
   <div class="container my-5">
     <form v-if="car" @submit.prevent="save" class="mx-auto" style="max-width: 600px;">
       <h2 class="text-center mb-4">Edit Car</h2>
@@ -187,7 +184,7 @@ function cancel() {
       </div>
     </form>
   </div>
-  <Footer />
+
 </template>
 
 <style scoped>

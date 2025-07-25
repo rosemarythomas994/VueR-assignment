@@ -1,5 +1,4 @@
 <template>
-  <Header />
   <div class="container my-5">
     <h2 class="text-primary mb-4">All Cars</h2>
 
@@ -54,14 +53,13 @@
       <button class="btn btn-outline-primary" @click="goBackToWelcome"> Back to Welcome</button>
     </div>
   </div>
-  <Footer />
+
 </template>
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
-import Header from './Header.vue';
-import Footer from './Footer.vue';
+
 import axios from '../api';
 
 interface Car {

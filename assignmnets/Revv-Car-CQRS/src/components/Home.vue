@@ -2,9 +2,9 @@
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
 
-import Header from './Header.vue';
+
 import Cards from './Cards.vue';
-import Footer from './Footer.vue';
+
 import Section from './Section.vue';
 import Slides from './Slides.vue'; // Assuming you meant this as 'HeroSection'
 
@@ -25,7 +25,7 @@ const cars = ref<any[]>([]);
 
 <template>
   <div>
-    <Header />
+
     <Slides /> <!-- renamed from HeroSection -->
     <Cards />
     <Section />
@@ -40,7 +40,7 @@ const cars = ref<any[]>([]);
       </ul>
     </div>
 
-    <Footer />
+
   </div>
 </template>
 

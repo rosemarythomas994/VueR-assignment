@@ -4,10 +4,12 @@ import { useRouter } from 'vue-router';
 import { useForm, useField } from 'vee-validate';
 import { required, email as emailRule } from '@vee-validate/rules';
 import axios from '../api'
-import Header from './Header.vue';
-import Footer from './Footer.vue';
+import { useAuthStore } from '../stores/authStore'; // <-- Pinia store
+
 
 const router = useRouter();
+const authStore = useAuthStore(); // <-- initialize store
+
 const { handleSubmit, errors } = useForm();
 const { value: emailValue } = useField('email', [required, emailRule]);
 const passwordValue = ref('');
@@ -40,8 +42,8 @@ const onSubmit = handleSubmit(async (values) => {
       password: passwordValue.value,
     });
     const { token, username } = response.data;
-    localStorage.setItem('token', token);
-    localStorage.setItem('loggedInUser', JSON.stringify({ name: username, email: values.email }));
+        authStore.login(token, values.email);
+
     router.push({ path: '/welcome' });
   } catch (err: any) {
     alert(err.response?.data?.message || 'Invalid email or password');
@@ -51,7 +53,7 @@ const onSubmit = handleSubmit(async (values) => {
 
 <template>
   <div class="login-page">
-    <Header />
+
 
     <div class="login-container">
       <div class="login-box shadow">
@@ -127,7 +129,7 @@ const onSubmit = handleSubmit(async (values) => {
       </div>
     </div>
 
-    <Footer />
+ 
   </div>
 </template>
 

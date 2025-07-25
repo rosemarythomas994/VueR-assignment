@@ -84,7 +84,7 @@ function goBackToWelcome() {
 </script>
 
 <template>
-    <Header />
+
     <div class="container my-5">
         <h2 class="mb-4">Add New Car</h2>
 
@@ -135,7 +135,7 @@ function goBackToWelcome() {
 
         </form>
     </div>
-    <Footer />
+  
 </template>
 
 <style scoped>
