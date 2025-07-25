@@ -6,7 +6,7 @@ using Revv.cars.Domain.Model;
 using Revv.cars.Shared.Commands;
 using Revv.cars.Shared.Queries;
 
-namespace Revv.cars.Web.Controllers
+namespace Revv.cars.Application.Web.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -79,7 +79,7 @@ namespace Revv.cars.Web.Controllers
             if (!result.Success)
                 return BadRequest(result.Message);
 
-            return NoContent(); // Or return Ok(result.Message); if needed
+            return NoContent(); 
         }
 
         [HttpDelete("{id}")]
@@ -93,7 +93,7 @@ namespace Revv.cars.Web.Controllers
             if (!response.IsSuccess)
                 return NotFound(response.Message);
 
-            return Ok(response.Message); // or NoContent() if you want 204
+            return Ok(response.Message); 
         }
     }
 }

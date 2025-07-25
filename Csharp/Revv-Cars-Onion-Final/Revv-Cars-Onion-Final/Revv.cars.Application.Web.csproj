@@ -19,7 +19,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Revv.cars.Repo\Revv.cars.Repo.csproj" />
+	  <ProjectReference Include="..\Revv.cars.Repo\Revv.cars.Application.Repo.csproj" />
 	</ItemGroup>
 
 </Project>
