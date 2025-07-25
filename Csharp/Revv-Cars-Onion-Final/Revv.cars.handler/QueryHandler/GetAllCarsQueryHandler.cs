@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
 using Revv.cars.Domain.Model;
-using Revv.cars.handler.RepoInterface;
+using Revv.cars.DomainService.RepoInterface;
 using Revv.cars.Shared;
 using Revv.cars.Shared.Queries;
 
 
-namespace Revv.cars.handler.QueryHandler
+namespace Revv.cars.DomainService.QueryHandler
 {
     public class GetAllCarsQueryHandler : IRequestHandler<GetAllCarsQueryRequest, GetAllCarsQueryResponse>
     {

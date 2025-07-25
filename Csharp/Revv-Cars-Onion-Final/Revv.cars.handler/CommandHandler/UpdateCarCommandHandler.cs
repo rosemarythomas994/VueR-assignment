@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MediatR;
-using Revv.cars.handler.RepoInterface;
+using Revv.cars.DomainService.RepoInterface;
 using Revv.cars.Shared.Commands;
 
-namespace Revv.cars.handler.CommandHandler
+namespace Revv.cars.DomainService.CommandHandler
 {
     public class UpdateCarCommandHandler : IRequestHandler<UpdateCarCommandRequest, UpdateCarCommandResponse>
     {

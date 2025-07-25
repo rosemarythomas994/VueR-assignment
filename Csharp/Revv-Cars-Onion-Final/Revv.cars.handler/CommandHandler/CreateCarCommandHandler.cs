@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
-using Revv.cars.handler.RepoInterface;
+using Revv.cars.DomainService.RepoInterface;
 using Revv.cars.Shared.Commands;
 
-namespace Revv.Cars.handler.CommandHandler
+namespace Revv.cars.DomainService.CommandHandler
 {
     public class CreateCarCommandHandler : IRequestHandler<CreateCarCommandRequest, CreateCarCommandResponse>
     {

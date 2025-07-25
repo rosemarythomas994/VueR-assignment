@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MediatR;
-using Revv.cars.handler.RepoInterface;
+using Revv.cars.DomainService.RepoInterface;
 using Revv.cars.Shared.Queries;
 
-namespace Revv.cars.handler.QueryHandler
+namespace Revv.cars.DomainService.QueryHandler
 {
     public class GetCarByIdQueryHandler : IRequestHandler<GetCarByIdQueryRequest, GetCarByIdQueryResponse>
     {

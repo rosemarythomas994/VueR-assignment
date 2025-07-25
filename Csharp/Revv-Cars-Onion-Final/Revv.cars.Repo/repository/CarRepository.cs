@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using Revv.cars.Domain.Model;
-using Revv.cars.handler.RepoInterface;
+using Revv.cars.DomainService.RepoInterface;
 
 namespace Revv.cars.Application.Repository.repository
 {

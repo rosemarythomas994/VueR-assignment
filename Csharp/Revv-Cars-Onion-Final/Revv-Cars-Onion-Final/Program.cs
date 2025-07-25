@@ -1,8 +1,7 @@
 ﻿using Revv.cars.Application.Repository.repository;
 using Revv.cars.Domain;
-using Revv.cars.handler.QueryHandler;
-using Revv.cars.handler.RepoInterface;
-
+using Revv.cars.DomainService.QueryHandler;
+using Revv.cars.DomainService.RepoInterface;
 using MicrosoftLogLevel = Microsoft.Extensions.Logging.LogLevel;
 
     var builder = WebApplication.CreateBuilder(args);
