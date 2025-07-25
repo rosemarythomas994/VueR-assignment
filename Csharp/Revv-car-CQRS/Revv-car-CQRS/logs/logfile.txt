@@ -1384,3 +1384,228 @@ DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 2025-07-25 16:17:26.8593 INFO Executed action Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS) in 13.0706ms
 2025-07-25 16:17:26.8593 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
 2025-07-25 16:17:26.8593 INFO Request finished HTTP/1.1 GET http://localhost:5015/api/Car - 200 - application/json;+charset=utf-8 13.9788ms
+2025-07-25 16:17:31.4590 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Login/login - - -
+2025-07-25 16:17:31.4590 INFO CORS policy execution successful.
+2025-07-25 16:17:31.4590 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Login/login - 204 - - 0.2415ms
+2025-07-25 16:17:31.4658 INFO Request starting HTTP/1.1 POST http://localhost:5015/api/Login/login - application/json 55
+2025-07-25 16:17:31.4658 INFO CORS policy execution successful.
+2025-07-25 16:17:31.4658 INFO Executing endpoint 'Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS)'
+2025-07-25 16:17:31.4658 INFO Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Revv_car_CQRS.Commands.LoginUserCommandRequest) on controller Revv_car_CQRS.Controllers.LoginController (Revv_car_CQRS).
+2025-07-25 16:17:31.5945 INFO Token generated "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb3NlcGhAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiJqb3NlcGhAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRGV2ZWxvcGVyIiwianRpIjoiMGE0N2MwZDYtODg4OC00Yjc3LWJiNGQtMTVhZGNlOTg2MzgwIiwiZXhwIjoxNzUzNDQ0MDUxLCJpc3MiOiJSZXZ2Q2Fyc0FwaSIsImF1ZCI6IlJldnZDYXJzQ2xpZW50In0.0HTBYoRlv0GJOur6ynT1Yo-dykL61bOTILaaK-WUPPg"
+2025-07-25 16:17:31.5945 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-25 16:17:31.5945 INFO Executed action Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS) in 128.7863ms
+2025-07-25 16:17:31.5945 INFO Executed endpoint 'Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS)'
+2025-07-25 16:17:31.5945 INFO Request finished HTTP/1.1 POST http://localhost:5015/api/Login/login - 200 - application/json;+charset=utf-8 129.0936ms
+2025-07-25 16:17:31.6124 INFO Request starting HTTP/1.1 GET http://localhost:5015/api/Car - - -
+2025-07-25 16:17:31.6124 INFO CORS policy execution successful.
+2025-07-25 16:17:31.6124 INFO Executing endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:17:31.6124 INFO Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Revv_car_CQRS.Controllers.CarController (Revv_car_CQRS).
+2025-07-25 16:17:31.6209 INFO Retrieved 1998 cars
+2025-07-25 16:17:31.6209 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Revv_car_CQRS.Model.Car, Revv_car_CQRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-25 16:17:31.6209 INFO Executed action Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS) in 11.0198ms
+2025-07-25 16:17:31.6209 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:17:31.6209 INFO Request finished HTTP/1.1 GET http://localhost:5015/api/Car - 200 - application/json;+charset=utf-8 11.7103ms
+2025-07-25 16:17:33.8543 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Car - - -
+2025-07-25 16:17:33.8543 INFO CORS policy execution successful.
+2025-07-25 16:17:33.8543 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Car - 204 - - 0.1770ms
+2025-07-25 16:17:33.8543 INFO Request starting HTTP/1.1 GET http://localhost:5015/api/Car - - -
+2025-07-25 16:17:33.8543 INFO CORS policy execution successful.
+2025-07-25 16:17:33.8543 INFO Executing endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:17:33.8543 INFO Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Revv_car_CQRS.Controllers.CarController (Revv_car_CQRS).
+2025-07-25 16:17:33.8720 INFO Retrieved 1998 cars
+2025-07-25 16:17:33.8720 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Revv_car_CQRS.Model.Car, Revv_car_CQRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-25 16:17:33.8720 INFO Executed action Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS) in 16.9335ms
+2025-07-25 16:17:33.8720 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:17:33.8720 INFO Request finished HTTP/1.1 GET http://localhost:5015/api/Car - 200 - application/json;+charset=utf-8 18.1537ms
+2025-07-25 16:30:36.7910 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Car - - -
+2025-07-25 16:30:36.7953 INFO CORS policy execution successful.
+2025-07-25 16:30:36.7953 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Car - 204 - - 6.5976ms
+2025-07-25 16:30:36.7953 INFO Request starting HTTP/1.1 GET http://localhost:5015/api/Car - - -
+2025-07-25 16:30:36.7953 INFO CORS policy execution successful.
+2025-07-25 16:30:36.7953 INFO Executing endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:30:36.7953 INFO Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Revv_car_CQRS.Controllers.CarController (Revv_car_CQRS).
+2025-07-25 16:30:36.8148 INFO Retrieved 1998 cars
+2025-07-25 16:30:36.8148 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Revv_car_CQRS.Model.Car, Revv_car_CQRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-25 16:30:36.8148 INFO Executed action Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS) in 11.4937ms
+2025-07-25 16:30:36.8148 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:30:36.8148 INFO Request finished HTTP/1.1 GET http://localhost:5015/api/Car - 200 - application/json;+charset=utf-8 14.3144ms
+2025-07-25 16:30:43.6440 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Login/login - - -
+2025-07-25 16:30:43.6440 INFO CORS policy execution successful.
+2025-07-25 16:30:43.6440 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Login/login - 204 - - 1.0595ms
+2025-07-25 16:30:43.6513 INFO Request starting HTTP/1.1 POST http://localhost:5015/api/Login/login - application/json 55
+2025-07-25 16:30:43.6513 INFO CORS policy execution successful.
+2025-07-25 16:30:43.6513 INFO Executing endpoint 'Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS)'
+2025-07-25 16:30:43.6513 INFO Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Revv_car_CQRS.Commands.LoginUserCommandRequest) on controller Revv_car_CQRS.Controllers.LoginController (Revv_car_CQRS).
+2025-07-25 16:30:43.7701 INFO Token generated "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb3NlcGhAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiJqb3NlcGhAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRGV2ZWxvcGVyIiwianRpIjoiNWE4ZTMxNDYtNjUwOC00YjU5LTk0NjEtOTYwMGY3YzE1ZTRjIiwiZXhwIjoxNzUzNDQ0ODQzLCJpc3MiOiJSZXZ2Q2Fyc0FwaSIsImF1ZCI6IlJldnZDYXJzQ2xpZW50In0.HZUtRRBWv8HjWcK4cp4L5LFWzJ5hwxcz4bbg4TigrL4"
+2025-07-25 16:30:43.7701 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-25 16:30:43.7701 INFO Executed action Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS) in 118.6799ms
+2025-07-25 16:30:43.7701 INFO Executed endpoint 'Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS)'
+2025-07-25 16:30:43.7701 INFO Request finished HTTP/1.1 POST http://localhost:5015/api/Login/login - 200 - application/json;+charset=utf-8 118.9829ms
+2025-07-25 16:30:43.7881 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Car - - -
+2025-07-25 16:30:43.7881 INFO CORS policy execution successful.
+2025-07-25 16:30:43.7881 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Car - 204 - - 0.2627ms
+2025-07-25 16:30:43.7936 INFO Request starting HTTP/1.1 GET http://localhost:5015/api/Car - - -
+2025-07-25 16:30:43.7936 INFO CORS policy execution successful.
+2025-07-25 16:30:43.7936 INFO Executing endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:30:43.7936 INFO Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Revv_car_CQRS.Controllers.CarController (Revv_car_CQRS).
+2025-07-25 16:30:43.7936 INFO Retrieved 1998 cars
+2025-07-25 16:30:43.7936 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Revv_car_CQRS.Model.Car, Revv_car_CQRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-25 16:30:43.7936 INFO Executed action Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS) in 9.0267ms
+2025-07-25 16:30:43.7936 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:30:43.7936 INFO Request finished HTTP/1.1 GET http://localhost:5015/api/Car - 200 - application/json;+charset=utf-8 9.8292ms
+2025-07-25 16:30:45.5152 INFO Request starting HTTP/1.1 GET http://localhost:5015/api/Car - - -
+2025-07-25 16:30:45.5152 INFO CORS policy execution successful.
+2025-07-25 16:30:45.5152 INFO Executing endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:30:45.5152 INFO Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Revv_car_CQRS.Controllers.CarController (Revv_car_CQRS).
+2025-07-25 16:30:45.5152 INFO Retrieved 1998 cars
+2025-07-25 16:30:45.5152 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Revv_car_CQRS.Model.Car, Revv_car_CQRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-25 16:30:45.5271 INFO Executed action Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS) in 11.153ms
+2025-07-25 16:30:45.5271 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:30:45.5271 INFO Request finished HTTP/1.1 GET http://localhost:5015/api/Car - 200 - application/json;+charset=utf-8 12.1080ms
+2025-07-25 16:36:16.4502 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Car - - -
+2025-07-25 16:36:16.4502 INFO CORS policy execution successful.
+2025-07-25 16:36:16.4502 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Car - 204 - - 0.4766ms
+2025-07-25 16:36:16.4502 INFO Request starting HTTP/1.1 GET http://localhost:5015/api/Car - - -
+2025-07-25 16:36:16.4502 INFO CORS policy execution successful.
+2025-07-25 16:36:16.4502 INFO Executing endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:36:16.4502 INFO Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Revv_car_CQRS.Controllers.CarController (Revv_car_CQRS).
+2025-07-25 16:36:16.4686 INFO Retrieved 1998 cars
+2025-07-25 16:36:16.4686 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Revv_car_CQRS.Model.Car, Revv_car_CQRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-25 16:36:16.4912 INFO Executed action Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS) in 28.7505ms
+2025-07-25 16:36:16.4912 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:36:16.4912 INFO Request finished HTTP/1.1 GET http://localhost:5015/api/Car - 200 - application/json;+charset=utf-8 30.3534ms
+2025-07-25 16:36:21.9088 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Login/login - - -
+2025-07-25 16:36:21.9088 INFO CORS policy execution successful.
+2025-07-25 16:36:21.9088 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Login/login - 204 - - 0.1652ms
+2025-07-25 16:36:21.9088 INFO Request starting HTTP/1.1 POST http://localhost:5015/api/Login/login - application/json 55
+2025-07-25 16:36:21.9088 INFO CORS policy execution successful.
+2025-07-25 16:36:21.9088 INFO Executing endpoint 'Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS)'
+2025-07-25 16:36:21.9088 INFO Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Revv_car_CQRS.Commands.LoginUserCommandRequest) on controller Revv_car_CQRS.Controllers.LoginController (Revv_car_CQRS).
+2025-07-25 16:36:22.0335 INFO Token generated "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb3NlcGhAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiJqb3NlcGhAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRGV2ZWxvcGVyIiwianRpIjoiMmVhMzlkMWYtOTMwMS00YmU4LTg0MzEtYzE3ODI2NTM3MWQwIiwiZXhwIjoxNzUzNDQ1MTgyLCJpc3MiOiJSZXZ2Q2Fyc0FwaSIsImF1ZCI6IlJldnZDYXJzQ2xpZW50In0.WElvurv12bm1jazi7dS1d_oIQfls2ZIxjz3JJZr-vfc"
+2025-07-25 16:36:22.0335 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-25 16:36:22.0335 INFO Executed action Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS) in 118.5246ms
+2025-07-25 16:36:22.0335 INFO Executed endpoint 'Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS)'
+2025-07-25 16:36:22.0335 INFO Request finished HTTP/1.1 POST http://localhost:5015/api/Login/login - 200 - application/json;+charset=utf-8 119.3257ms
+2025-07-25 16:36:22.0528 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Car - - -
+2025-07-25 16:36:22.0528 INFO CORS policy execution successful.
+2025-07-25 16:36:22.0528 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Car - 204 - - 0.4281ms
+2025-07-25 16:36:22.0588 INFO Request starting HTTP/1.1 GET http://localhost:5015/api/Car - - -
+2025-07-25 16:36:22.0588 INFO CORS policy execution successful.
+2025-07-25 16:36:22.0588 INFO Executing endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:36:22.0588 INFO Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Revv_car_CQRS.Controllers.CarController (Revv_car_CQRS).
+2025-07-25 16:36:22.0588 INFO Retrieved 1998 cars
+2025-07-25 16:36:22.0588 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Revv_car_CQRS.Model.Car, Revv_car_CQRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-25 16:36:22.0588 INFO Executed action Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS) in 7.7424ms
+2025-07-25 16:36:22.0588 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:36:22.0588 INFO Request finished HTTP/1.1 GET http://localhost:5015/api/Car - 200 - application/json;+charset=utf-8 8.4578ms
+2025-07-25 16:36:55.2446 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Login/login - - -
+2025-07-25 16:36:55.2446 INFO CORS policy execution successful.
+2025-07-25 16:36:55.2446 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Login/login - 204 - - 0.1847ms
+2025-07-25 16:36:55.2446 INFO Request starting HTTP/1.1 POST http://localhost:5015/api/Login/login - application/json 55
+2025-07-25 16:36:55.2446 INFO CORS policy execution successful.
+2025-07-25 16:36:55.2446 INFO Executing endpoint 'Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS)'
+2025-07-25 16:36:55.2446 INFO Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Revv_car_CQRS.Commands.LoginUserCommandRequest) on controller Revv_car_CQRS.Controllers.LoginController (Revv_car_CQRS).
+2025-07-25 16:36:55.3754 INFO Token generated "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb3NlcGhAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiJqb3NlcGhAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRGV2ZWxvcGVyIiwianRpIjoiYzNmZTBlOTUtODEzNC00MGYyLTk3NzMtNGE4ODMzYTFhYjA0IiwiZXhwIjoxNzUzNDQ1MjE1LCJpc3MiOiJSZXZ2Q2Fyc0FwaSIsImF1ZCI6IlJldnZDYXJzQ2xpZW50In0.6A_lIqGh2Z1yAI5U2H0RMBUke4lYgQoSpFzWtN39fXM"
+2025-07-25 16:36:55.3754 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-25 16:36:55.3754 INFO Executed action Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS) in 122.2402ms
+2025-07-25 16:36:55.3754 INFO Executed endpoint 'Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS)'
+2025-07-25 16:36:55.3754 INFO Request finished HTTP/1.1 POST http://localhost:5015/api/Login/login - 200 - application/json;+charset=utf-8 124.6753ms
+2025-07-25 16:36:55.3939 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Car - - -
+2025-07-25 16:36:55.3939 INFO CORS policy execution successful.
+2025-07-25 16:36:55.3939 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Car - 204 - - 0.1285ms
+2025-07-25 16:36:55.3939 INFO Request starting HTTP/1.1 GET http://localhost:5015/api/Car - - -
+2025-07-25 16:36:55.3939 INFO CORS policy execution successful.
+2025-07-25 16:36:55.3939 INFO Executing endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:36:55.3939 INFO Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Revv_car_CQRS.Controllers.CarController (Revv_car_CQRS).
+2025-07-25 16:36:55.4047 INFO Retrieved 1998 cars
+2025-07-25 16:36:55.4047 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Revv_car_CQRS.Model.Car, Revv_car_CQRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-25 16:36:55.4047 INFO Executed action Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS) in 16.4886ms
+2025-07-25 16:36:55.4047 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:36:55.4047 INFO Request finished HTTP/1.1 GET http://localhost:5015/api/Car - 200 - application/json;+charset=utf-8 17.8228ms
+2025-07-25 16:37:39.8331 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Login/register - - -
+2025-07-25 16:37:39.8331 INFO CORS policy execution successful.
+2025-07-25 16:37:39.8331 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Login/register - 204 - - 0.2326ms
+2025-07-25 16:37:39.8432 INFO Request starting HTTP/1.1 POST http://localhost:5015/api/Login/register - application/json 69
+2025-07-25 16:37:39.8432 INFO CORS policy execution successful.
+2025-07-25 16:37:39.8432 INFO Executing endpoint 'Revv_car_CQRS.Controllers.LoginController.Register (Revv_car_CQRS)'
+2025-07-25 16:37:39.8432 INFO Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Revv_car_CQRS.Commands.RegisterUserCommandRequest) on controller Revv_car_CQRS.Controllers.LoginController (Revv_car_CQRS).
+2025-07-25 16:37:39.8432 INFO Registering a new user {"Success":false, "Message":"Username already exists"}
+2025-07-25 16:37:39.8621 WARN User registration failed: {"Success":false, "Message":"Username already exists"}
+2025-07-25 16:37:39.8621 INFO Executing ConflictObjectResult, writing value of type 'Revv_car_CQRS.Commands.RegisterUserCommandResponse'.
+2025-07-25 16:37:39.8621 INFO Executed action Revv_car_CQRS.Controllers.LoginController.Register (Revv_car_CQRS) in 16.716ms
+2025-07-25 16:37:39.8621 INFO Executed endpoint 'Revv_car_CQRS.Controllers.LoginController.Register (Revv_car_CQRS)'
+2025-07-25 16:37:39.8621 INFO Request finished HTTP/1.1 POST http://localhost:5015/api/Login/register - 409 - application/json;+charset=utf-8 22.4112ms
+2025-07-25 16:37:46.0441 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Login/register - - -
+2025-07-25 16:37:46.0441 INFO CORS policy execution successful.
+2025-07-25 16:37:46.0441 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Login/register - 204 - - 0.2145ms
+2025-07-25 16:37:46.0441 INFO Request starting HTTP/1.1 POST http://localhost:5015/api/Login/register - application/json 71
+2025-07-25 16:37:46.0441 INFO CORS policy execution successful.
+2025-07-25 16:37:46.0441 INFO Executing endpoint 'Revv_car_CQRS.Controllers.LoginController.Register (Revv_car_CQRS)'
+2025-07-25 16:37:46.0441 INFO Route matched with {action = "Register", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Revv_car_CQRS.Commands.RegisterUserCommandRequest) on controller Revv_car_CQRS.Controllers.LoginController (Revv_car_CQRS).
+2025-07-25 16:37:46.2419 INFO Registering a new user {"Success":true, "Message":"User registered successfully"}
+2025-07-25 16:37:46.2419 INFO Successfully registered user with ID: Revv_car_CQRS.Commands.RegisterUserCommandResponse
+2025-07-25 16:37:46.2419 INFO Executing OkObjectResult, writing value of type 'Revv_car_CQRS.Commands.RegisterUserCommandResponse'.
+2025-07-25 16:37:46.2419 INFO Executed action Revv_car_CQRS.Controllers.LoginController.Register (Revv_car_CQRS) in 190.8058ms
+2025-07-25 16:37:46.2419 INFO Executed endpoint 'Revv_car_CQRS.Controllers.LoginController.Register (Revv_car_CQRS)'
+2025-07-25 16:37:46.2419 INFO Request finished HTTP/1.1 POST http://localhost:5015/api/Login/register - 200 - application/json;+charset=utf-8 191.1127ms
+2025-07-25 16:37:55.9455 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Login/login - - -
+2025-07-25 16:37:55.9455 INFO CORS policy execution successful.
+2025-07-25 16:37:55.9455 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Login/login - 204 - - 0.1727ms
+2025-07-25 16:37:55.9521 INFO Request starting HTTP/1.1 POST http://localhost:5015/api/Login/login - application/json 57
+2025-07-25 16:37:55.9521 INFO CORS policy execution successful.
+2025-07-25 16:37:55.9521 INFO Executing endpoint 'Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS)'
+2025-07-25 16:37:55.9521 INFO Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Revv_car_CQRS.Commands.LoginUserCommandRequest) on controller Revv_car_CQRS.Controllers.LoginController (Revv_car_CQRS).
+2025-07-25 16:37:56.0759 INFO Token generated "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb3NhYWVwaEBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Impvc2FhZXBoQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InNkZGQiLCJqdGkiOiI0YjgwYTE2OC0wOGM1LTRlYjktOTIyMS1jMmE2NWM2NjgzNDMiLCJleHAiOjE3NTM0NDUyNzYsImlzcyI6IlJldnZDYXJzQXBpIiwiYXVkIjoiUmV2dkNhcnNDbGllbnQifQ.fZt5eC15u37rvQzNLXPgh24v-bMZkNCZ_srS8LQ02w4"
+2025-07-25 16:37:56.0759 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-25 16:37:56.0759 INFO Executed action Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS) in 123.766ms
+2025-07-25 16:37:56.0759 INFO Executed endpoint 'Revv_car_CQRS.Controllers.LoginController.Login (Revv_car_CQRS)'
+2025-07-25 16:37:56.0759 INFO Request finished HTTP/1.1 POST http://localhost:5015/api/Login/login - 200 - application/json;+charset=utf-8 124.0130ms
+2025-07-25 16:37:56.0981 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Car - - -
+2025-07-25 16:37:56.0981 INFO CORS policy execution successful.
+2025-07-25 16:37:56.0981 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Car - 204 - - 0.2392ms
+2025-07-25 16:37:56.0981 INFO Request starting HTTP/1.1 GET http://localhost:5015/api/Car - - -
+2025-07-25 16:37:56.0981 INFO CORS policy execution successful.
+2025-07-25 16:37:56.1037 INFO Executing endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:37:56.1037 INFO Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Revv_car_CQRS.Controllers.CarController (Revv_car_CQRS).
+2025-07-25 16:37:56.1037 INFO Retrieved 1998 cars
+2025-07-25 16:37:56.1037 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Revv_car_CQRS.Model.Car, Revv_car_CQRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-25 16:37:56.1214 INFO Executed action Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS) in 17.5171ms
+2025-07-25 16:37:56.1214 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:37:56.1214 INFO Request finished HTTP/1.1 GET http://localhost:5015/api/Car - 200 - application/json;+charset=utf-8 18.5512ms
+2025-07-25 16:38:02.5353 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Car/67c0521f4177ed3804c8d6d8 - - -
+2025-07-25 16:38:02.5353 INFO CORS policy execution successful.
+2025-07-25 16:38:02.5353 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Car/67c0521f4177ed3804c8d6d8 - 204 - - 0.1950ms
+2025-07-25 16:38:02.5353 INFO Request starting HTTP/1.1 GET http://localhost:5015/api/Car/67c0521f4177ed3804c8d6d8 - - -
+2025-07-25 16:38:02.5431 INFO CORS policy execution successful.
+2025-07-25 16:38:02.5431 INFO Executing endpoint 'Revv_car_CQRS.Controllers.CarController.GetById (Revv_car_CQRS)'
+2025-07-25 16:38:02.5431 INFO Route matched with {action = "GetById", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.String) on controller Revv_car_CQRS.Controllers.CarController (Revv_car_CQRS).
+2025-07-25 16:38:02.5725 INFO Successfully loggined
+2025-07-25 16:38:02.5725 INFO Car with ID 67c0521f4177ed3804c8d6d8 successfully retrieved
+2025-07-25 16:38:02.5725 INFO Executing OkObjectResult, writing value of type 'Revv_car_CQRS.Queries.GetCarByIdQueryResponse'.
+2025-07-25 16:38:02.5725 INFO Executed action Revv_car_CQRS.Controllers.CarController.GetById (Revv_car_CQRS) in 24.431ms
+2025-07-25 16:38:02.5725 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.GetById (Revv_car_CQRS)'
+2025-07-25 16:38:02.5725 INFO Request finished HTTP/1.1 GET http://localhost:5015/api/Car/67c0521f4177ed3804c8d6d8 - 200 - application/json;+charset=utf-8 34.1133ms
+2025-07-25 16:38:07.4729 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Car/67c0521f4177ed3804c8d6d8 - - -
+2025-07-25 16:38:07.4729 INFO CORS policy execution successful.
+2025-07-25 16:38:07.4729 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Car/67c0521f4177ed3804c8d6d8 - 204 - - 1.3321ms
+2025-07-25 16:38:07.4795 INFO Request starting HTTP/1.1 PUT http://localhost:5015/api/Car/67c0521f4177ed3804c8d6d8 - multipart/form-data;+boundary=----WebKitFormBoundaryp6cLW3vkR3hmvKXb 893
+2025-07-25 16:38:07.4795 INFO CORS policy execution successful.
+2025-07-25 16:38:07.4795 INFO Executing endpoint 'Revv_car_CQRS.Controllers.CarController.Update (Revv_car_CQRS)'
+2025-07-25 16:38:07.4795 INFO Route matched with {action = "Update", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(System.String, Revv_car_CQRS.Model.CarUpload) on controller Revv_car_CQRS.Controllers.CarController (Revv_car_CQRS).
+2025-07-25 16:38:07.5266 INFO Car with ID 67c0521f4177ed3804c8d6d8 successfully updated
+2025-07-25 16:38:07.5266 INFO Executing StatusCodeResult, setting HTTP status code 204
+2025-07-25 16:38:07.5266 INFO Executed action Revv_car_CQRS.Controllers.CarController.Update (Revv_car_CQRS) in 46.221ms
+2025-07-25 16:38:07.5266 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.Update (Revv_car_CQRS)'
+2025-07-25 16:38:07.5266 INFO Request finished HTTP/1.1 PUT http://localhost:5015/api/Car/67c0521f4177ed3804c8d6d8 - 204 - - 51.2743ms
+2025-07-25 16:38:07.5627 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5015/api/Car - - -
+2025-07-25 16:38:07.5627 INFO CORS policy execution successful.
+2025-07-25 16:38:07.5627 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5015/api/Car - 204 - - 0.1665ms
+2025-07-25 16:38:07.5627 INFO Request starting HTTP/1.1 GET http://localhost:5015/api/Car - - -
+2025-07-25 16:38:07.5627 INFO CORS policy execution successful.
+2025-07-25 16:38:07.5627 INFO Executing endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:38:07.5627 INFO Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Revv_car_CQRS.Controllers.CarController (Revv_car_CQRS).
+2025-07-25 16:38:07.5728 INFO Retrieved 1998 cars
+2025-07-25 16:38:07.5728 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Revv_car_CQRS.Model.Car, Revv_car_CQRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-25 16:38:07.5728 INFO Executed action Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS) in 8.2538ms
+2025-07-25 16:38:07.5728 INFO Executed endpoint 'Revv_car_CQRS.Controllers.CarController.GetAll (Revv_car_CQRS)'
+2025-07-25 16:38:07.5728 INFO Request finished HTTP/1.1 GET http://localhost:5015/api/Car - 200 - application/json;+charset=utf-8 8.9558ms
