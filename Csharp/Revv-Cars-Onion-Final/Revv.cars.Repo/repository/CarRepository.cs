@@ -9,7 +9,7 @@ using MongoDB.Driver;
 using Revv.cars.Domain.Model;
 using Revv.cars.handler.RepoInterface;
 
-namespace Revv.cars.Application.Repo.repository
+namespace Revv.cars.Application.Repository.repository
 {
     public class CarRepository : ICarRepository
     {

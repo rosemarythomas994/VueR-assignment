@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Revv.cars.Application.Repo.repository
+namespace Revv.cars.Application.Repository.repository
 {
     public class MongoDBSettings
     {

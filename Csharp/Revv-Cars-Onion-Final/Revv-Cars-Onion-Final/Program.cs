@@ -1,7 +1,7 @@
-﻿using Revv.cars.Domain;
+﻿using Revv.cars.Application.Repository.repository;
+using Revv.cars.Domain;
 using Revv.cars.handler.QueryHandler;
 using Revv.cars.handler.RepoInterface;
-using Revv.cars.Repo.repository;
 
 using MicrosoftLogLevel = Microsoft.Extensions.Logging.LogLevel;
 
